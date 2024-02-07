@@ -1,0 +1,446 @@
+/* Minimal style sheet for the HTML output of Docutils.                    */
+/*                                                                         */
+/* :Author: GÃ¼nter Milde, based on html4css1.css by David Goodger          */
+/* :Id: $Id: minimal.css 8642 2021-03-26 13:51:14Z milde $               */
+/* :Copyright: Â© 2015 GÃ¼nter Milde.                                        */
+/* :License: Released under the terms of the `2-Clause BSD license`_,      */
+/*    in short:                                                            */
+/*                                                                         */
+/*    Copying and distribution of this file, with or without modification, */
+/*    are permitted in any medium without royalty provided the copyright   */
+/*    notice and this notice are preserved.                                */
+/*                                                                         */
+/*    This file is offered as-is, without any warranty.                    */
+/*                                                                         */
+/* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
+
+/* This CSS2.1_ stylesheet defines rules for Docutils elements without    */
+/* HTML equivalent. It is required to make the document semantic visible. */
+/*                                                                        */
+/* .. _CSS2.1: http://www.w3.org/TR/CSS2                                  */
+/* .. _validates: http://jigsaw.w3.org/css-validator/validator$link       */
+
+/* titles */
+p.topic-title,
+p.admonition-title,
+p.system-message-title {
+  font-weight: bold;
+}
+p.sidebar-title,
+p.rubric {
+  font-weight: bold;
+  font-size: larger;
+}
+p.rubric {
+  color: maroon;
+}
+p.subtitle,
+p.section-subtitle,
+p.sidebar-subtitle {
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+h1 + p.subtitle {
+  font-size: 1.6em;
+}
+h2 + p.section-subtitle, a.toc-backref {
+  color: black;
+  text-decoration: none;
+}
+
+/* Warnings, Errors */
+.system-messages h2,
+.system-message-title,
+span.problematic {
+  color: red;
+}
+
+/* Inline Literals */
+.docutils.literal {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+/* do not wrap at hyphens and similar: */
+.literal > span.pre { white-space: nowrap; }
+
+/* Lists */
+
+/* compact and simple lists: no margin between items */
+.simple  li, .simple  ul, .simple  ol,
+.compact li, .compact ul, .compact ol,
+.simple  > li p, dl.simple  > dd,
+.compact > li p, dl.compact > dd {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Table of Contents */
+.topic.contents { margin: 0.5em 0; }
+.topic.contents ul.auto-toc {
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+
+/* Enumerated Lists */
+ol.arabic     { list-style: decimal }
+ol.loweralpha { list-style: lower-alpha }
+ol.upperalpha { list-style: upper-alpha }
+ol.lowerroman { list-style: lower-roman }
+ol.upperroman { list-style: upper-roman }
+
+/* Definition Lists and Derivatives */
+dt .classifier { font-style: italic }
+dt .classifier:before {
+  font-style: normal;
+  margin: 0.5em;
+  content: ":";
+}
+/* Field Lists and similar */
+/* bold field name, content starts on the same line */
+dl.field-list > dt,
+dl.option-list > dt,
+dl.docinfo > dt,
+dl.footnote > dt,
+dl.citation > dt {
+  font-weight: bold;
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5em;
+}
+/* Offset for field content (corresponds to the --field-name-limit option) */
+dl.field-list > dd,
+dl.option-list > dd,
+dl.docinfo > dd {
+  margin-left:  9em; /* ca. 14 chars in the test examples, fit all Docinfo fields */
+}
+/* start field-body on a new line after long field names */
+dl.field-list > dd > *:first-child,
+dl.option-list > dd > *:first-child
+{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+/* field names followed by a colon */
+dl.field-list > dt:after,
+dl.docinfo > dt:after {
+  content: ":";
+}
+
+/* Bibliographic Fields (docinfo) */
+dl.docinfo pre.address {
+  font: inherit;
+  margin: 0.5em 0;
+}
+dl.docinfo > dd.authors > p { margin: 0; }
+
+/* Option Lists */
+dl.option-list > dt { font-weight: normal; }
+span.option { white-space: nowrap; }
+
+/* Footnotes and Citations  */
+dl.footnote.superscript > dd { margin-left: 1em; }
+dl.footnote.brackets > dd { margin-left: 2em; }
+dl.footnote > dt { font-weight: normal; }
+a.footnote-reference.brackets:before,
+dt.label > span.brackets:before { content: "["; }
+a.footnote-reference.brackets:after,
+dt.label > span.brackets:after { content: "]"; }
+a.footnote-reference.superscript,
+dl.footnote.superscript > dt.label {
+  vertical-align: super;
+  font-size: small;
+}
+dt.label > span.fn-backref {
+  margin-left: 0.2em;
+  font-weight: normal;
+}
+dt.label > span.fn-backref > a { font-style: italic; }
+
+/* Alignment */
+.align-left   {
+  text-align: left;
+  margin-right: auto;
+}
+.align-center {
+  clear: both;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.align-right  {
+  text-align: right;
+  margin-left: auto;
+}
+.align-top    { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+
+/* reset inner alignment in figures and tables */
+figure.align-left, figure.align-right,
+table.align-left, table.align-center, table.align-right {
+  text-align: inherit;
+}
+
+/* Text Blocks */
+blockquote,
+div.topic,
+aside.topic {
+  margin: 1em 2em;
+}
+.sidebar,
+.admonition,
+.system-message {
+  border: thin solid;
+  margin: 1em 2em;
+  padding: 0.5em 1em;
+}
+.sidebar {
+  width: 30%;
+  max-width: 26em;
+  float: right;
+  clear: right;
+}
+div.line-block { display: block; }
+div.line-block div.line-block, pre { margin-left: 2em; }
+
+/* Code line numbers: dropped when copying text from the page */
+pre.code .ln { display: none; }
+pre.code code:before {
+  content: attr(data-lineno); /* â€¦, none) fallback not supported by any browser */
+  color: gray;
+}
+
+/* Tables */
+
+td > p:first-child, th > p:first-child { margin-top: 0; }
+td > p, th > p { margin-bottom: 0; }
+
+.borderless td, .borderless th {
+  border: 0;
+  padding: 0;
+  padding-right: 0.5em /* separate table cells */
+}
+
+/* CSS31_ style sheet for the output of Docutils HTML writers.             */
+/* Rules for easy reading and pre-defined style variants.                  */
+/*                                                                         */
+/* :Author: GÃ¼nter Milde, based on html4css1.css by David Goodger          */
+/* :Id: $Id: plain.css 8636 2021-03-19 00:23:33Z milde $                                                               */
+/* :Copyright: Â© 2015 GÃ¼nter Milde.                                        */
+/* :License: Released under the terms of the `2-Clause BSD license`_,      */
+/*    in short:                                                            */
+/*                                                                         */
+/*    Copying and distribution of this file, with or without modification, */
+/*    are permitted in any medium without royalty provided the copyright   */
+/*    notice and this notice are preserved.                                */
+/*                                                                         */
+/*    This file is offered as-is, without any warranty.                    */
+/*                                                                         */
+/* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
+/* .. _CSS3: http://www.w3.org/TR/CSS3                                     */
+
+
+/* Document Structure */
+/* ****************** */
+
+/* Transitions */
+hr.docutils {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  clear: both;
+}
+
+dl > dd {
+  margin-bottom: 0.5em;
+}
+
+/* Lists */
+/* ===== */
+
+/* Separate list entries in compound lists */
+dl > dd, ol > li,
+
+/* Definition Lists */
+/* Indent lists nested in definition lists */
+/* (:only-child is new in CSSÂ 3)           */
+dd > ul:only-child, dd > ol:only-child { padding-left: 1em; }
+
+/* Description Lists */
+/* styled like in most dictionaries, encyclopedias etc. */
+dl.description > dt {
+  font-weight: bold;
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5em;
+}
+
+/* Field Lists */
+
+/* example for custom field-name width */
+dl.field-list.narrow > dd {
+  margin-left: 5em;
+}
+/* run-in: start field-body on same line after long field names */
+dl.field-list.run-in > dd p {
+  display: block;
+}
+
+/* Bibliographic Fields */
+
+/* generally, bibliographic fields use special definition list dl.docinfo */
+/* but dedication and abstract are placed into "topic" divs */
+div.abstract p.topic-title {
+  text-align: center;
+}
+div.dedication {
+  margin: 2em 5em;
+  text-align: center;
+  font-style: italic;
+}
+div.dedication p.topic-title {
+  font-style: normal;
+}
+
+/* Text Blocks */
+/* =========== */
+
+/* Literal Blocks */
+pre.literal-block, pre.doctest-block,
+pre.math, pre.code {
+  font-family: monospace;
+}
+
+/* Block Quotes */
+blockquote > table,
+div.topic > table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote p.attribution,
+div.topic p.attribution {
+  text-align: right;
+  margin-left: 20%;
+}
+
+/* Tables */
+/* ====== */
+
+/* th { vertical-align: bottom; } */
+
+table tr { text-align: left; }
+
+/* "booktabs" style (no vertical lines) */
+table.booktabs {
+  border: 0;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.booktabs * {
+  border: 0;
+}
+table.booktabs th {
+  border-bottom: thin solid;
+}
+
+/* numbered tables (counter defined in div.document) */
+table.numbered > caption:before {
+  counter-increment: table;
+  content: "Table " counter(table) ": ";
+  font-weight: bold;
+}
+
+/* Explicit Markup Blocks */
+/* ====================== */
+
+/* Footnotes and Citations */
+/* ----------------------- */
+
+/* line on the left */
+dl.footnote {
+  padding-left: 1ex;
+  border-left: solid;
+  border-left-width: thin;
+}
+
+/* Directives */
+/* ---------- */
+
+/* Body Elements */
+/* ~~~~~~~~~~~~~ */
+
+/* Images and Figures */
+
+/* let content flow to the side of aligned images and figures */
+figure.align-left,
+img.align-left,
+video.align-left,
+object.align-left {
+  clear: left;
+  float: left;
+  margin-right: 1em;
+}
+figure.align-right,
+img.align-right,
+video.align-right,
+object.align-right {
+  clear: right;
+  float: right;
+  margin-left: 1em;
+}
+
+/* Numbered figures */
+figure.numbered > figcaption > p:before {
+  counter-increment: figure;
+  content: "Figure " counter(figure) ": ";
+  font-weight: bold;
+}
+
+/* Admonitions and System Messages */
+.caution p.admonition-title,
+.attention p.admonition-title,
+.danger p.admonition-title,
+.error p.admonition-title,
+.warning p.admonition-title,
+div.error {
+  color: red;
+}
+
+/* Sidebar */
+/* Move right. In a layout with fixed margins, */
+/* it can be moved into the margin.            */
+aside.sidebar {
+  width: 30%;
+  max-width: 26em;
+  margin-left: 1em;
+  margin-right: -2%;
+  background-color: #ffffee;
+}
+òjW„Jj      eÂ˜çeÂ˜çFˆåçeËÓg   S    O^partitionKey=%28https%2Cpypy.org%29,:https://www.pypy.org/assets/css/rst_base.css strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+server: nginx
+date: Tue, 06 Feb 2024 20:39:03 GMT
+content-type: text/css
+content-length: 10787
+last-modified: Wed, 18 May 2022 12:30:30 GMT
+etag: "6284e6e6-2a23"
+accept-ranges: bytes
+x-clacks-overhead: GNU Terry Pratchett
+strict-transport-security: max-age=315360000
+X-Firefox-Spdy: h2
+ original-response-headers server: nginx
+date: Tue, 06 Feb 2024 20:39:03 GMT
+content-type: text/css
+content-length: 10787
+last-modified: Wed, 18 May 2022 12:30:30 GMT
+etag: "6284e6e6-2a23"
+accept-ranges: bytes
+x-clacks-overhead: GNU Terry Pratchett
+strict-transport-security: max-age=315360000
+X-Firefox-Spdy: h2
+ ctid 5 uncompressed-len 0 net-response-time-onstart 158 net-response-time-onstop 159   *#

@@ -1,0 +1,343 @@
+/*
+* SmoothMenu addon for jQuery UI
+* https://github.com/madguy/jQuery.ui.smoothMenu
+
+* Copyright 2011, madguy
+* License MIT-style License.
+* http://www.opensource.org/licenses/mit-license.php
+*
+* Depends:
+*   jquery.ui.core.js
+*   jquery.ui.widget.js
+*
+* Inspired by MenuMatic
+* http://greengeckodesign.com/menumatic
+*/
+(function ($, undefined) {
+	var isNumber = function (value) {
+		return typeof value === "number" && isFinite(value);
+	};
+
+	$.widget('ui.smoothMenu', {
+
+		widgetEventPrefix: 'smoothMenu',
+
+		_wrapToWidgetEvent: function (type) {
+			return type + '.' + this.widgetEventPrefix;
+		},
+
+		options: {
+			childTag: 'li',
+			delay: 1000,
+			direction: 'horizontal',
+			dockId: 'ui_smooth_menu_container',
+			duration: 300,
+			easing: 'swing',
+			icon: true,
+			opacity: 0.97,
+			parentTag: 'ul',
+			zIndex: 1
+		},
+
+		_create: function () {
+			var self = this;
+			var options = self.options;
+			var $elm = self.element;
+			var $rootContainer = self._getOrCreateContainer();
+			var $parent = $elm.children(options.parentTag + ':first');
+			options.parentNode = $parent;
+
+			//
+			var childOption = $.extend({}, options, {
+				direction: 'vertical',
+				zIndex: options.zIndex + 1
+			});
+			//
+			var $childNodes = $parent.children(options.childTag).smoothMenu(childOption).bind({
+				smoothmenuonhide: function (event, $elm) {
+					self.hide();
+				}
+			});
+			options.childNodes = $childNodes;
+
+			options.defaultCss = {
+				marginLeft: $parent.css('marginLeft'),
+				marginTop: $parent.css('marginTop'),
+				opacity: $parent.css('opacity'),
+				visibility: $parent.css('visibility')
+			};
+
+			//$elm.addClass('ui-smoothMenu-item ui-widget ui-corner-all ui-state-default').bind(self._wrapToWidgetEvent('mouseenter'), function (event) {
+			$elm.bind(self._wrapToWidgetEvent('mouseenter'), function (event) {
+				/*if (options.disabled === false) {
+					$elm.addClass('ui-state-hover');
+				}
+				*/
+				self._mouseEnter(event);
+				$(this).smoothMenu('show');
+			}).bind(self._wrapToWidgetEvent('mouseleave'), function (event) {
+				// $elm.removeClass('ui-state-hover');
+				self._mouseLeave(event);
+				setTimeout(function () {
+					$elm.smoothMenu('hide');
+				}, options.delay);
+			});
+
+			if ($parent.length > 0) {
+				var $container = $('<div />').css({
+					display: 'none',
+					overflow: 'hidden',
+					position: 'absolute',
+					zIndex: options.zIndex
+				}).bind(self._wrapToWidgetEvent('mouseenter'), function (event) {
+					self._mouseEnter(event);
+				}).bind(self._wrapToWidgetEvent('mouseleave'), function (event) {
+					self._mouseLeave(event);
+				}).append($parent).appendTo($rootContainer);
+				options.container = $container;
+
+				/* adding <i></i> myself, along with <i></i> for icons */
+				/*
+				if (options.icon) {
+					var iconClass = options.direction === 'horizontal' ? 'ui-icon-triangle-1-s' : 'ui-icon-triangle-1-e';
+					var $icon = $('<span class="ui-icon" />').addClass(iconClass);
+					$elm.append($icon);
+				}
+				*/
+			} else {
+				options.container = $();
+			}
+
+			$elm.smoothMenu('hide', 200);
+		},
+
+		destroy: function () {
+			var self = this;
+			var options = self.options;
+			var $elm = self.element;
+
+			if (options.disabled) {
+				self.enable();
+			}
+
+			//$elm.removeClass('ui-smoothMenu-item ui-widget ui-corner-all ui-state-default').unbind('.' + self.widgetEventPrefix);
+			$elm.unbind('.' + self.widgetEventPrefix);
+			$elm.find('.ui-icon').remove();
+
+			var $container = options.container;
+
+			//
+			options.childNodes.smoothMenu('destroy');
+
+			var $parent = $container.children(options.parentTag);
+			$parent.stop(true, true).css(options.defaultCss);
+
+			$elm.append($parent);
+			$container.remove();
+			self._removeContainerIfEmpty();
+			return self;
+		},
+
+		enable: function () {
+			var $childNodes = this.options.childNodes;
+			$childNodes.smoothMenu('enable');
+			$.Widget.prototype.enable.call(this);
+		},
+
+		disable: function () {
+			var $childNodes = this.options.childNodes;
+			$childNodes.smoothMenu('disable');
+			this.hide();
+			$.Widget.prototype.disable.call(this);
+		},
+
+		rootContainer: function () {
+			return this._getOrCreateContainer();
+		},
+
+		content: function () {
+			return this.options.parentNode;
+		},
+
+		show: function (duration) {
+			var self = this;
+			var options = this.options;
+			var $elm = self.element;
+			var $container = options.container;
+			var $parent = $container.children(options.parentTag);
+			duration = isNumber(duration) ? duration : options.duration;
+
+			if (options.disabled) {
+				return;
+			}
+
+			$elm.siblings().smoothMenu('hide', 200);
+
+			if (options.visible) {
+				return;
+			}
+
+			var isContinue = self._trigger('beforeShow', null, $elm);
+			if (isContinue === false) {
+				return;
+			}
+
+			var offset = $elm.offset();
+			var extendWidth = options.direction !== 'horizontal' ? $elm.outerWidth(true) : 0;
+			var extendHeight = (function () {
+				if (options.direction === 'horizontal') {
+					// return $elm.outerHeight(true);
+					return $elm.parent().outerHeight(true);
+				} else {
+					var containerHeight = $container.outerHeight(true) || 0;
+					var documentHeight = $(document).height();
+					return Math.min(documentHeight - (offset.top + containerHeight), 0);
+				}
+			})();
+			//
+			$container.show();
+			//
+			
+			// var height = $parent.outerHeight() || 0;
+			//var width = $parent.outerWidth() || 0;
+			var height = $parent.outerHeight() + 20;
+			var width = 180;
+			
+			$container.css({
+				// left: String(offset.left + extendWidth) + 'px',
+				left: String(offset.left + extendWidth - 5) + 'px',
+				height: String(height) + 'px',
+				top: String(offset.top + extendHeight) + 'px',
+				width: String(width)  + 'px',				
+			});
+			
+			
+			$parent.stop(true).animate({
+				marginLeft: '0px',
+				marginTop: '0px',
+				opacity: options.opacity
+			}, {
+				duration: duration,
+				easing: options.easing
+			});
+
+			options.visible = true;
+
+			self._trigger('onShow', null, $elm);
+		},
+
+		hide: function (duration) {
+			var self = this;
+			var options = self.options;
+			var $elm = self.element;
+			var $container = options.container;
+			var $parent = $container.children(options.parentTag);
+			duration = isNumber(duration) ? duration : options.duration;
+
+			if (options.disabled) {
+				return;
+			}
+
+			if (options.visible === false) {
+				return;
+			}
+
+			if (self.isMouseOver(true)) {
+				return;
+			}
+
+			var isContinue = self._trigger('beforeHide', null, $elm);
+			if (isContinue === false) {
+				return;
+			}
+
+			var marginLeft = options.direction !== 'horizontal' ? -1 * $container.outerWidth() : 0;
+			var marginTop = options.direction === 'horizontal' ? -1 * $container.outerHeight() : 0;
+
+			$parent.stop(true).animate({
+				marginLeft: String(marginLeft) + 'px',
+				marginTop: String(marginTop) + 'px',
+				//opacity: 0
+			}, {
+				duration: duration,
+				easing: options.easing,
+				complete: function () {
+					$container.hide();
+				}
+			});
+			self._trigger('onHide', null, $elm);
+
+			options.visible = false;
+
+			//
+			options.childNodes.smoothMenu('hide');
+		},
+
+		isMouseOver: function (deepSearch) {
+			var isMouseOver = this.options.isMouseOver;
+			if (deepSearch) {
+				var hasMouseOverChild = this._hasMouseOverChild();
+				return isMouseOver || hasMouseOverChild;
+			} else {
+				return isMouseOver;
+			}
+		},
+
+		_hasMouseOverChild: function () {
+			var $childNodes = this.options.childNodes;
+			var hasMouseOverChild = $childNodes.filter(function () {
+				return $(this).smoothMenu('isMouseOver', true);
+			}).length > 0;
+			return hasMouseOverChild;
+		},
+
+		_mouseEnter: function (event) {
+			this.options.isMouseOver = true;
+		},
+
+		_mouseLeave: function (event) {
+			this.options.isMouseOver = false;
+		},
+
+		_getOrCreateContainer: function () {
+			var id = this.options.dockId;
+			var $container = $('#' + id);
+			if ($container.length === 0) {
+				$container = $('<div />', {
+					id: id
+					// ,'class': 'ui-widget ui-smoothMenu'
+				}).appendTo(document.body);
+			}
+			return $container;
+		},
+
+		_removeContainerIfEmpty: function () {
+			var $container = this._getOrCreateContainer();
+			if ($container.is(':empty')) {
+				$container.remove();
+			}
+		}
+
+	});
+
+	$.extend($.ui.smoothMenu, {
+		version: '0.2.4'
+	});
+
+})(jQuery);
+ÂA=ìÂ      e¬óre¬órFà‰‰eÀ—Ú   ç    O^partitionKey=%28https%2Clewoniewski.info%29,:https://en.lewoniewski.info/wp-content/themes/lewoniewski/javascript/smooth-menu.js?ver=4.7.28 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+last-modified: Mon, 10 Sep 2012 15:11:40 GMT
+accept-ranges: bytes
+content-length: 8514
+content-type: application/javascript
+date: Tue, 06 Feb 2024 20:32:50 GMT
+server: Apache
+X-Firefox-Spdy: h2
+ original-response-headers last-modified: Mon, 10 Sep 2012 15:11:40 GMT
+accept-ranges: bytes
+content-length: 8514
+content-type: application/javascript
+date: Tue, 06 Feb 2024 20:32:50 GMT
+server: Apache
+X-Firefox-Spdy: h2
+ ctid 2 uncompressed-len 0 net-response-time-onstart 88 net-response-time-onstop 95   !B

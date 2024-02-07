@@ -1,0 +1,1077 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="top" href="./index.php?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo Forums Forum Index" />
+<link rel="search" href="./search.php?sid=d21799554f9effd4b98c074d433b0e3d" title="Search" />
+<link rel="help" href="./faq.php?sid=d21799554f9effd4b98c074d433b0e3d" title="FAQ" />
+<link rel="author" href="./memberlist.php?sid=d21799554f9effd4b98c074d433b0e3d" title="Memberlist" />
+<link rel="prev" href="viewtopic-t-1166261-view-previous.html-sid-d21799554f9effd4b98c074d433b0e3d.html?sid=d21799554f9effd4b98c074d433b0e3d" title="View previous topic" />
+<link rel="next" href="viewtopic-t-1166261-view-next.html-sid-d21799554f9effd4b98c074d433b0e3d.html?sid=d21799554f9effd4b98c074d433b0e3d" title="View next topic" />
+<link rel="up" href="viewforum-f-8.html-sid-d21799554f9effd4b98c074d433b0e3d.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Portage & Programming" />
+<link rel="chapter forum" href="viewforum-f-16.html?sid=d21799554f9effd4b98c074d433b0e3d" title="News & Announcements" />
+<link rel="chapter forum" href="viewforum-f-40.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Frequently Asked Questions" />
+<link rel="chapter forum" href="viewforum-f-14.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Installing Gentoo" />
+<link rel="chapter forum" href="viewforum-f-33.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Multimedia" />
+<link rel="chapter forum" href="viewforum-f-13.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Desktop Environments" />
+<link rel="chapter forum" href="viewforum-f-18.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Networking & Security" />
+<link rel="chapter forum" href="viewforum-f-23.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Kernel & Hardware" />
+<link rel="chapter forum" href="viewforum-f-8.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Portage & Programming" />
+<link rel="chapter forum" href="viewforum-f-19.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gamers & Players" />
+<link rel="chapter forum" href="viewforum-f-1.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Other Things Gentoo" />
+<link rel="chapter forum" href="viewforum-f-51.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Unsupported Software" />
+<link rel="chapter forum" href="viewforum-f-12.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Documentation, Tips & Tricks" />
+<link rel="chapter forum" href="viewforum-f-7.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo Chat" />
+<link rel="chapter forum" href="viewforum-f-5.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo Forums Feedback" />
+<link rel="chapter forum" href="viewforum-f-38.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Duplicate Threads" />
+<link rel="chapter forum" href="viewforum-f-50.html?sid=d21799554f9effd4b98c074d433b0e3d" title="ä¸­æ–‡ (Chinese)" />
+<link rel="chapter forum" href="viewforum-f-36.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Dutch" />
+<link rel="chapter forum" href="viewforum-f-47.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Finnish" />
+<link rel="chapter forum" href="viewforum-f-35.html?sid=d21799554f9effd4b98c074d433b0e3d" title="French" />
+<link rel="chapter forum" href="viewforum-f-28.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Deutsches Forum (German)" />
+<link rel="chapter forum" href="viewforum-f-52.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Diskussionsforum" />
+<link rel="chapter forum" href="viewforum-f-53.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Deutsche Dokumentation" />
+<link rel="chapter forum" href="viewforum-f-44.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Greek" />
+<link rel="chapter forum" href="viewforum-f-41.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Forum italiano (Italian)" />
+<link rel="chapter forum" href="viewforum-f-54.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Forum di discussione italiano" />
+<link rel="chapter forum" href="viewforum-f-57.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Risorse italiane (documentazione e tools)" />
+<link rel="chapter forum" href="viewforum-f-45.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Polskie forum (Polish)" />
+<link rel="chapter forum" href="viewforum-f-55.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Instalacja i sprzÄ™t" />
+<link rel="chapter forum" href="viewforum-f-61.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Polish OTW" />
+<link rel="chapter forum" href="viewforum-f-39.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Portuguese" />
+<link rel="chapter forum" href="viewforum-f-59.html?sid=d21799554f9effd4b98c074d433b0e3d" title="DocumentaÃ§Ã£o, Ferramentas e Dicas" />
+<link rel="chapter forum" href="viewforum-f-43.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Russian" />
+<link rel="chapter forum" href="viewforum-f-37.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Scandinavian" />
+<link rel="chapter forum" href="viewforum-f-30.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Spanish" />
+<link rel="chapter forum" href="viewforum-f-15.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Other Languages" />
+<link rel="chapter forum" href="viewforum-f-46.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo on AMD64" />
+<link rel="chapter forum" href="viewforum-f-62.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo on ARM" />
+<link rel="chapter forum" href="viewforum-f-24.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo on PPC" />
+<link rel="chapter forum" href="viewforum-f-27.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo on Sparc" />
+<link rel="chapter forum" href="viewforum-f-32.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo on Alternative Architectures" />
+<link rel="chapter forum" href="viewforum-f-49.html?sid=d21799554f9effd4b98c074d433b0e3d" title="Gentoo for Mac OS X (Portage for Mac OS X)" />
+
+<title>Gentoo Forums :: View topic - python 3.12 emerge problem</title>
+<link rel="stylesheet" href="templates/gentoo/gentoo.css" type="text/css">
+<style type="text/css">
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("templates/gentoo/formIE.css");
+</style>
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.gentoo.org/search/www-gentoo-org.xml" title="Gentoo Website">
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.gentoo.org/search/forums-gentoo-org.xml" title="Gentoo Forums">
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.gentoo.org/search/bugs-gentoo-org.xml" title="Gentoo Bugzilla">
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.gentoo.org/search/packages-gentoo-org.xml" title="Gentoo Packages">
+
+</head>
+<body bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#5493B4">
+
+<a name="top"></a>
+<form action="search.php?mode=results&amp;sid=d21799554f9effd4b98c074d433b0e3d" method="POST" id=form1 name=form1>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr><td width="100%" bgcolor="#46357C">
+		<table width="99%" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="2"><img src="templates/gentoo/images/header_01_top.jpg" alt="Gentoo Forums" border="0" /></td></tr>
+			<tr><td colspan="2"><a href="index.php?sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/header_01_bottom.jpg" alt="Gentoo Forums" border="0" /></a></td></tr>
+			<tr>
+				<td width="455"><a href="index.php?sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/header_02.jpg" alt="Gentoo Forums" border="0" /></a></td>
+				<td valign="bottom" align="right"><table cellspacing="1" cellpadding="1" border="0"><tr>
+				<td>
+					<span class="menu">
+						<a class=menulink href="search.php?sid=d21799554f9effd4b98c074d433b0e3d">Quick Search</a>:
+						<input type="text" style="width: 100px" class="post" name="search_keywords" size="30" value="" />
+						<input type="hidden" name="search_terms" value="all" />
+						<input type="hidden" name="show_results" value="topics" />
+					</span>
+				</td>
+				<td><span class="searchlink">in <select name="this_search"><option value="0">All available</option><option value="2">This forum</option><option value="1">This topic</option></select><input type="hidden" name="this_forum" value="8"><input type="hidden" name="this_topic" value="1166261"></span></td>
+				</tr></table></td>
+			</tr>
+		</table>
+	<tr><td width="100%" bgcolor="#000000" height="24">
+		<p class="menu">&nbsp;
+		<a class=menulink href="faq.php?sid=d21799554f9effd4b98c074d433b0e3d">FAQ</a> |
+		<a class=menulink href="search.php?sid=d21799554f9effd4b98c074d433b0e3d">Search</a> |
+		<a class=menulink href="memberlist.php?sid=d21799554f9effd4b98c074d433b0e3d">Memberlist</a> |
+		<a class=menulink href="groupcp.php?sid=d21799554f9effd4b98c074d433b0e3d">Usergroups</a> |
+		<a class=menulink href="statistics.php?sid=d21799554f9effd4b98c074d433b0e3d">Statistics</a> |
+		<a class=menulink href="profile.php?mode=editprofile&amp;sid=d21799554f9effd4b98c074d433b0e3d">Profile</a> |
+		<a class=menulink href="privmsg.php?folder=inbox&amp;sid=d21799554f9effd4b98c074d433b0e3d">Log in to check your private messages</a> |
+		
+		<a class=menulink href="login.php?sid=d21799554f9effd4b98c074d433b0e3d">Log in</a>
+		| <a class=menulink href="profile.php?mode=register&amp;sid=d21799554f9effd4b98c074d433b0e3d">Register</a>
+		</p>
+	</td></tr>
+</table>
+</form>
+<table align="center" width="98%"><tr><td>
+
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="top" colspan="2"><a class="maintitle" href="viewtopic-t-1166261-start-0-postdays-0-postorder-asc-highlight-.html?sid=d21799554f9effd4b98c074d433b0e3d">python 3.12 emerge problem</a><br /></td>
+  <td style="text-align:right;">
+	  <span class="gensmall">
+      <a href="search.php?search_id=unanswered&amp;sid=d21799554f9effd4b98c074d433b0e3d" class="gensmall">View unanswered posts</a><br>
+      <a href="search.php?search_id=last&amp;sid=d21799554f9effd4b98c074d433b0e3d" class="gensmall">View posts from last 24 hours</a><br>
+      <br />
+      <b></b>
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr>
+	<td align="left" valign="bottom" nowrap="nowrap" width="5%"><span class="nav"><a href="posting.php?mode=reply&amp;t=1166261&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/reply.gif" border="0" alt="Reply to topic" align="middle" /></a></span></td>
+	<td align="left" valign="middle"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">Gentoo Forums Forum Index</a>
+	 <img src="/images/forumpointer.gif" width="18" height="9" border="0" alt=""> <a href="viewforum-f-8.html?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">Portage & Programming</a></span></td>
+	<td align="right"><span class="nav"></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="1" cellpadding="3" border="0">
+	<tr align="right">
+		<td class="catHead" colspan="2" height="28"><span class="nav"><a href="viewtopic-t-1166261-view-previous.html?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">View previous topic</a> :: <a href="viewtopic-t-1166261-view-next.html?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">View next topic</a> &nbsp;</span></td>
+	</tr>
+	
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Author</th>
+		<th class="thRight" nowrap="nowrap">Message</th>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809323"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809323.html?sid=d21799554f9effd4b98c074d433b0e3d#8809323"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 1:01 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: python 3.12 emerge problem</span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809323&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">Hello ,during emerge -uDNpv world i have a error 
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge&#58; there are no ebuilds to satisfy &quot;dev-lang/python-exec&#91;python_targets_python3_12&#40;-&#41;&#93;&quot;.
+<br />
+&#40;dependency required by &quot;dev-lang/python-3.12.0_p1&#58;&#58;gentoo&quot; &#91;ebuild&#93;&#41;
+<br />
+&#40;dependency required by &quot;@selected&quot; &#91;set&#93;&#41;
+<br />
+&#40;dependency required by &quot;@world&quot; &#91;argument&#93;&#41;</td>	</tr></table><span class="postbody">
+<br />
+i also try to put in make.conf 
+<br />
+PYTHON_TARGETS=&quot;python3_11 python3_12&quot; ,but does not help.
+<br />
+
+<br />
+<span style="font-style: italic"><span style="color: blue">[Moderator edit: changed [i<span style="font-weight: bold"></span>] tags to [c<span style="font-weight: bold"></span>ode] tags to preserve output layout. -Hu]</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809324"></a><b>freke</b></span><br /><span class="postdetails">l33t<br /><img src="/images/ranks/rank_rect_4.gif" alt="l33t" title="l33t" border="0" /><br /><br /><br />Joined: 23 Jan 2003<br />Posts: 917<br />Location: Somewhere in Denmark</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809324.html?sid=d21799554f9effd4b98c074d433b0e3d#8809324"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 1:09 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809324&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">We're advised not to use make.conf to set PYTHON_TARGETS; I'd remove that again <img src="images/smiles/icon_wink.gif" alt=";)" title="Wink" border="0" />
+<br />
+
+<br />
+What does</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">grep -ir python /etc/portage/</td>	</tr></table><span class="postbody"> return?</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809326"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809326.html?sid=d21799554f9effd4b98c074d433b0e3d#8809326"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 2:20 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809326&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">/etc/portage/package.use/nut&#58;sys-power/nut python_single_target_python2_7
+<br />
+/etc/portage/package.use/ldns&#58;net-libs/ldns python_single_target_python2_7
+<br />
+/etc/portage/package.use/libvirt&#58;app-emulation/libvirt pcap python sasl
+<br />
+/etc/portage/package.use/libxml2&#58;dev-libs/libxml2 python
+<br />
+/etc/portage/package.use/net-snmp&#58;net-analyzer/net-snmp python_single_target_python2_7
+<br />
+/etc/portage/package.use/libvirt-glib&#58;app-emulation/libvirt-glib python
+<br />
+/etc/portage/package.use/python&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use/syslog-summary&#58;app-admin/syslog-summary python_single_target_python2_7
+<br />
+/etc/portage/package.use/virt-manager&#58;app-emulation/virt-manager python
+<br />
+/etc/portage/._cfg0001_package.use&#58;dev-lang/python sqlite
+<br />
+/etc/portage/._mrg0001_package.use&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use.orig&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use.orig&#58;sys-apps/portage python3
+<br />
+/etc/portage/package.use.orig&#58;app-emulation/libvirt pcap python sasl</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-style: italic"><span style="color: blue">[Moderator edit: added [c<span style="font-weight: bold"></span>ode] tags to preserve output layout. -Hu]</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809331"></a><b>freke</b></span><br /><span class="postdetails">l33t<br /><img src="/images/ranks/rank_rect_4.gif" alt="l33t" title="l33t" border="0" /><br /><br /><br />Joined: 23 Jan 2003<br />Posts: 917<br />Location: Somewhere in Denmark</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809331.html?sid=d21799554f9effd4b98c074d433b0e3d#8809331"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:02 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809331&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">You'll want to remove all the python_single_target_python2_7 entries, they're not valid anymore - they all have python3_10 and/or 3_11 as single targets now.</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809333"></a><b>grknight</b></span><br /><span class="postdetails">Retired Dev<br /><img src="/images/ranks/rank-retired.gif" alt="Retired Dev" title="Retired Dev" border="0" /><br /><br /><br />Joined: 20 Feb 2015<br />Posts: 1441<br /></span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809333.html?sid=d21799554f9effd4b98c074d433b0e3d#8809333"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:16 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809333&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">What would really be interesting to see is the output of <span style="font-weight: bold">emerge -pv dev-lang/python-exec</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809334"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809334.html?sid=d21799554f9effd4b98c074d433b0e3d#8809334"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:21 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809334&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>grknight wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">What would really be interesting to see is the output of <span style="font-weight: bold">emerge -pv dev-lang/python-exec</span></td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">Calculating dependencies... done!
+<br />
+Dependency resolution took 2.87 s &#40;backtrack&#58; 0/20&#41;.
+<br />
+
+<br />
+&#91;ebuild&nbsp; &nbsp;R&nbsp; &nbsp; &#93; dev-lang/python-exec-2.4.10&#58;2&#58;&#58;gentoo&nbsp; USE=&quot;&#40;native-symlinks&#41; -test&quot; PYTHON_TARGETS=&quot;&#40;pypy3&#41; &#40;python3_10&#41; &#40;python3_11&#41; &#40;-python3_12&#41;&quot; 0 KiB</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-style: italic"><span style="color: blue">[Moderator edit: added [c<span style="font-weight: bold"></span>ode] tags to preserve output layout. -Hu]</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809335"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809335.html?sid=d21799554f9effd4b98c074d433b0e3d#8809335"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:22 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809335&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>freke wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">You'll want to remove all the python_single_target_python2_7 entries, they're not valid anymore - they all have python3_10 and/or 3_11 as single targets now.</td>	</tr></table><span class="postbody">
+<br />
+hello i removed all entries for python2_7 and recompiled packages
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">grep -ir python /etc/portage/
+<br />
+/etc/portage/package.use/libvirt&#58;app-emulation/libvirt pcap python sasl
+<br />
+/etc/portage/package.use/libxml2&#58;dev-libs/libxml2 python
+<br />
+/etc/portage/package.use/libvirt-glib&#58;app-emulation/libvirt-glib python
+<br />
+/etc/portage/package.use/python&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use/virt-manager&#58;app-emulation/virt-manager python
+<br />
+/etc/portage/._cfg0001_package.use&#58;dev-lang/python sqlite
+<br />
+/etc/portage/._mrg0001_package.use&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use.orig&#58;dev-lang/python sqlite
+<br />
+/etc/portage/package.use.orig&#58;sys-apps/portage python3
+<br />
+/etc/portage/package.use.orig&#58;app-emulation/libvirt pcap python sasl</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-style: italic"><span style="color: blue">[Moderator edit: added [c<span style="font-weight: bold"></span>ode] tags to preserve output layout. -Hu]</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809339"></a><b>grknight</b></span><br /><span class="postdetails">Retired Dev<br /><img src="/images/ranks/rank-retired.gif" alt="Retired Dev" title="Retired Dev" border="0" /><br /><br /><br />Joined: 20 Feb 2015<br />Posts: 1441<br /></span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809339.html?sid=d21799554f9effd4b98c074d433b0e3d#8809339"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:34 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809339&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>zarec99 wrote:</b></span></td>	</tr>	<tr>	  <td class="quote"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>grknight wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">What would really be interesting to see is the output of <span style="font-weight: bold">emerge -pv dev-lang/python-exec</span></td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+
+<br />
+Calculating dependencies... done!
+<br />
+Dependency resolution took 2.87 s (backtrack: 0/20).
+<br />
+
+<br />
+[ebuild   R    ] dev-lang/python-exec-2.4.10:2::gentoo  USE=&quot;(native-symlinks) -test&quot; PYTHON_TARGETS=&quot;(pypy3) (python3_10) (python3_11) (-python3_12)&quot; 0 KiB</td>	</tr></table><span class="postbody">
+<br />
+This is strange.  python3_12 should be forced on (not off as the output shows) here in the file <span style="font-weight: bold">$(portageq get_repo_path / gentoo)/profiles/base/package.use.force</span> in any recent repository sync.
+<br />
+
+<br />
+Your emerge --info should show a recent date</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809341"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809341.html?sid=d21799554f9effd4b98c074d433b0e3d#8809341"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:45 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809341&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>grknight wrote:</b></span></td>	</tr>	<tr>	  <td class="quote"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>zarec99 wrote:</b></span></td>	</tr>	<tr>	  <td class="quote"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>grknight wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">What would really be interesting to see is the output of <span style="font-weight: bold">emerge -pv dev-lang/python-exec</span></td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">Calculating dependencies... done!
+<br />
+Dependency resolution took 2.87 s &#40;backtrack&#58; 0/20&#41;.
+<br />
+
+<br />
+&#91;ebuild&nbsp; &nbsp;R&nbsp; &nbsp; &#93; dev-lang/python-exec-2.4.10&#58;2&#58;&#58;gentoo&nbsp; USE=&quot;&#40;native-symlinks&#41; -test&quot; PYTHON_TARGETS=&quot;&#40;pypy3&#41; &#40;python3_10&#41; &#40;python3_11&#41; &#40;-python3_12&#41;&quot; 0 KiB</td>	</tr></table><span class="postbody"></td>	</tr></table><span class="postbody">
+<br />
+This is strange.  python3_12 should be forced on (not off as the output shows) here in the file <span style="font-weight: bold">$(portageq get_repo_path / gentoo)/profiles/base/package.use.force</span> in any recent repository sync.
+<br />
+
+<br />
+Your emerge --info should show a recent date</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+hello ,maybe good point about profile ,it looks like no profile selected (star symbol missing) ,but emerge info shows profile (amd64/17.1/no-multilib/hardened)
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">eselect profile list
+<br />
+Available profile symlink targets&#58;
+<br />
+&nbsp; &#91;1&#93;&nbsp; &nbsp;default/linux/amd64/17.1 &#40;stable&#41;
+<br />
+&nbsp; &#91;2&#93;&nbsp; &nbsp;default/linux/amd64/17.1/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;3&#93;&nbsp; &nbsp;default/linux/amd64/17.1/hardened &#40;stable&#41;
+<br />
+&nbsp; &#91;4&#93;&nbsp; &nbsp;default/linux/amd64/17.1/hardened/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;5&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop &#40;stable&#41;
+<br />
+&nbsp; &#91;6&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome &#40;stable&#41;
+<br />
+&nbsp; &#91;7&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;8&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;9&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/plasma &#40;stable&#41;
+<br />
+&nbsp; &#91;10&#93;&nbsp; default/linux/amd64/17.1/desktop/plasma/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;11&#93;&nbsp; default/linux/amd64/17.1/desktop/plasma/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;12&#93;&nbsp; default/linux/amd64/17.1/desktop/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;13&#93;&nbsp; default/linux/amd64/17.1/desktop/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;14&#93;&nbsp; default/linux/amd64/17.1/developer &#40;exp&#41;
+<br />
+&nbsp; &#91;15&#93;&nbsp; default/linux/amd64/17.1/no-multilib &#40;stable&#41;
+<br />
+&nbsp; &#91;16&#93;&nbsp; default/linux/amd64/17.1/no-multilib/hardened &#40;stable&#41;
+<br />
+&nbsp; &#91;17&#93;&nbsp; default/linux/amd64/17.1/no-multilib/hardened/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;18&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd &#40;dev&#41;
+<br />
+&nbsp; &#91;19&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/merged-usr &#40;dev&#41;
+<br />
+&nbsp; &#91;20&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/selinux &#40;exp&#41;
+<br />
+&nbsp; &#91;21&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/selinux/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;22&#93;&nbsp; default/linux/amd64/17.1/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;23&#93;&nbsp; default/linux/amd64/17.1/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;24&#93;&nbsp; default/linux/amd64/17.1/systemd/selinux &#40;exp&#41;
+<br />
+&nbsp; &#91;25&#93;&nbsp; default/linux/amd64/17.1/systemd/selinux/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;26&#93;&nbsp; default/linux/amd64/17.1/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;27&#93;&nbsp; default/linux/amd64/17.1/systemd/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;28&#93;&nbsp; default/linux/amd64/17.1/systemd/clang/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;29&#93;&nbsp; default/linux/amd64/17.0/x32 &#40;dev&#41;
+<br />
+&nbsp; &#91;30&#93;&nbsp; default/linux/amd64/17.0/x32/systemd &#40;exp&#41;
+<br />
+&nbsp; &#91;31&#93;&nbsp; default/linux/amd64/17.0/x32/systemd/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;32&#93;&nbsp; default/linux/amd64/17.0/musl &#40;dev&#41;
+<br />
+&nbsp; &#91;33&#93;&nbsp; default/linux/amd64/17.0/musl/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;34&#93;&nbsp; default/linux/amd64/17.0/musl/hardened &#40;exp&#41;
+<br />
+&nbsp; &#91;35&#93;&nbsp; default/linux/amd64/17.0/musl/hardened/selinux &#40;exp&#41;
+<br />
+</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge --info
+<br />
+Portage 3.0.56 &#40;python 3.11.6-final-0, !../usr/portage/profiles/default/linux/amd64/17.1/no-multilib/hardened, gcc-13, glibc-2.37-r7, 4.9.74-minipli-unofficial+grsec-zarec99 x86_64&#41;
+<br />
+=================================================================
+<br />
+System uname&#58; Linux-4.9.74-minipli-unofficial+grsec-zarec99-x86_64-Intel-R-_Core-TM-_i3-2120T_CPU_@_2.60GHz-with-glibc2.37
+<br />
+KiB Mem&#58;&nbsp; &nbsp; 16378244 total,&nbsp; &nbsp; 475316 free
+<br />
+KiB Swap&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0 total,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 free
+<br />
+Timestamp of repository gentoo&#58; Thu, 07 Dec 2023 14&#58;02&#58;01 +0000
+<br />
+Head commit of repository gentoo&#58; f725935600e647574f2813644d7832209d1370d8
+<br />
+
+<br />
+sh bash 5.1_p16-r6
+<br />
+ld GNU ld &#40;Gentoo 2.40 p7&#41; 2.40.0
+<br />
+ccache version 4.8.2 &#91;enabled&#93;
+<br />
+app-misc/pax-utils&#58;&nbsp; &nbsp; &nbsp; &nbsp; 1.3.5&#58;&#58;gentoo
+<br />
+app-shells/bash&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5.1_p16-r6&#58;&#58;gentoo
+<br />
+dev-lang/perl&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5.38.0-r1&#58;&#58;gentoo
+<br />
+dev-lang/python&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.7.18_p16-r1&#58;&#58;gentoo, 3.8.18&#58;&#58;gentoo, 3.9.18&#58;&#58;gentoo, 3.10.13&#58;&#58;gentoo, 3.11.6&#58;&#58;gentoo
+<br />
+dev-lang/rust&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1.66.1&#58;&#58;gentoo
+<br />
+dev-lang/rust-bin&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1.65.0-r1&#58;&#58;gentoo
+<br />
+dev-util/ccache&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4.8.2&#58;&#58;gentoo
+<br />
+dev-util/cmake&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3.27.7&#58;&#58;gentoo
+<br />
+dev-util/meson&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1.2.3&#58;&#58;gentoo
+<br />
+sys-apps/baselayout&#58;&nbsp; &nbsp; &nbsp; &nbsp;2.14&#58;&#58;gentoo
+<br />
+sys-apps/openrc&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.48&#58;&#58;gentoo
+<br />
+sys-apps/sandbox&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.38&#58;&#58;gentoo
+<br />
+sys-devel/autoconf&#58;&nbsp; &nbsp; &nbsp; &nbsp; 2.13-r7&#58;&#58;gentoo, 2.69-r9&#58;&#58;gentoo, 2.71-r6&#58;&#58;gentoo
+<br />
+sys-devel/automake&#58;&nbsp; &nbsp; &nbsp; &nbsp; 1.16.5-r1&#58;&#58;gentoo
+<br />
+sys-devel/binutils&#58;&nbsp; &nbsp; &nbsp; &nbsp; 2.40-r9&#58;&#58;gentoo
+<br />
+sys-devel/binutils-config&#58; 5.5&#58;&#58;gentoo
+<br />
+sys-devel/gcc&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9.3.0-r2&#58;&#58;gentoo, 10.3.0-r2&#58;&#58;gentoo, 11.3.1_p20221209&#58;&#58;gentoo, 12.3.1_p20230526&#58;&#58;gentoo, 13.2.1_p20230826&#58;&#58;gentoo
+<br />
+sys-devel/gcc-config&#58;&nbsp; &nbsp; &nbsp; 2.11&#58;&#58;gentoo
+<br />
+sys-devel/libtool&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.4.7-r1&#58;&#58;gentoo
+<br />
+sys-devel/make&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.4.1-r1&#58;&#58;gentoo
+<br />
+sys-kernel/linux-headers&#58;&nbsp; 6.1&#58;&#58;gentoo &#40;virtual/os-headers&#41;
+<br />
+sys-libs/glibc&#58;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.37-r7&#58;&#58;gentoo
+<br />
+Repositories&#58;
+<br />
+
+<br />
+gentoo
+<br />
+&nbsp; &nbsp; location&#58; /var/db/repos/gentoo
+<br />
+&nbsp; &nbsp; sync-type&#58; git
+<br />
+&nbsp; &nbsp; sync-uri&#58; https&#58;//github.com/gentoo-mirror/gentoo.git
+<br />
+&nbsp; &nbsp; priority&#58; -1000
+<br />
+&nbsp; &nbsp; volatile&#58; False
+<br />
+&nbsp; &nbsp; sync-git-verify-commit-signature&#58; yes
+<br />
+
+<br />
+x-portage
+<br />
+&nbsp; &nbsp; location&#58; /usr/local/portage
+<br />
+&nbsp; &nbsp; masters&#58; gentoo
+<br />
+&nbsp; &nbsp; priority&#58; 0
+<br />
+&nbsp; &nbsp; volatile&#58; True
+<br />
+
+<br />
+ACCEPT_KEYWORDS=&quot;amd64&quot;
+<br />
+ACCEPT_LICENSE=&quot;* -@EULA&quot;
+<br />
+CBUILD=&quot;x86_64-pc-linux-gnu&quot;
+<br />
+CFLAGS=&quot;-march=corei7-avx -mtune=native -O2 -pipe -fomit-frame-pointer -mfpmath=sse -mmmx -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -mavx -maes&quot;
+<br />
+CHOST=&quot;x86_64-pc-linux-gnu&quot;
+<br />
+CONFIG_PROTECT=&quot;/etc /usr/share/easy-rsa /usr/share/gnupg/qualified.txt /var/bind&quot;
+<br />
+CONFIG_PROTECT_MASK=&quot;/etc/ca-certificates.conf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/php/apache2-php8.1/ext-active/ /etc/php/cgi-php8.1/ext-active/ /etc/php/cli-php8.1/ext-active/ /etc/php/fpm-php8.1/ext-active/ /etc/php/phpdbg-php8.1/ext-active/ /etc/revdep-rebuild /etc/sandbox.d /etc/terminfo&quot;
+<br />
+CXXFLAGS=&quot;-march=corei7-avx -mtune=native -O2 -pipe -fomit-frame-pointer -mfpmath=sse -mmmx -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -mavx -maes&quot;
+<br />
+DISTDIR=&quot;/usr/portage/distfiles&quot;
+<br />
+EMERGE_DEFAULT_OPTS=&quot;--autounmask=n&quot;
+<br />
+ENV_UNSET=&quot;CARGO_HOME DBUS_SESSION_BUS_ADDRESS DISPLAY GDK_PIXBUF_MODULE_FILE GOBIN GOPATH PERL5LIB PERL5OPT PERLPREFIX PERL_CORE PERL_MB_OPT PERL_MM_OPT XAUTHORITY XDG_CACHE_HOME XDG_CONFIG_HOME XDG_DATA_HOME XDG_RUNTIME_DIR XDG_STATE_HOME&quot;
+<br />
+FCFLAGS=&quot;-O2 -pipe&quot;
+<br />
+FEATURES=&quot;assume-digests binpkg-docompress binpkg-dostrip binpkg-logs buildpkg-live ccache config-protect-if-modified distlocks ebuild-locks fixlafiles ipc-sandbox merge-sync metadata-transfer multilib-strict network-sandbox news parallel-fetch pid-sandbox pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr&quot;
+<br />
+FFLAGS=&quot;-march=corei7-avx -mtune=native -O2 -pipe -fomit-frame-pointer -mfpmath=sse -mmmx -msse -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -mavx -maes&quot;
+<br />
+GENTOO_MIRRORS=&quot;http&#58;//mirror.wheel.sk/gentoo http&#58;//tux.rainside.sk/gentoo http&#58;//distfiles.gentoo.org http&#58;//www.ibiblio.org/pub/Linux/distributions/gentoo&quot;
+<br />
+LANG=&quot;en_EN&quot;
+<br />
+LC_ALL=&quot;en_US.UTF-8&quot;
+<br />
+LDFLAGS=&quot;-Wl,--hash-style=gnu,-O1 -Wl,--as-needed&quot;
+<br />
+LEX=&quot;flex&quot;
+<br />
+LINGUAS=&quot;en&quot;
+<br />
+MAKEOPTS=&quot;-j5&quot;
+<br />
+PKGDIR=&quot;/usr/portage/packages&quot;
+<br />
+PORTAGE_COMPRESS=&quot;lzma&quot;
+<br />
+PORTAGE_COMPRESS_FLAGS=&quot;-e -9&quot;
+<br />
+PORTAGE_CONFIGROOT=&quot;/&quot;
+<br />
+PORTAGE_RSYNC_OPTS=&quot;--recursive --links --safe-links --perms --times --omit-dir-times --compress --force --whole-file --delete --stats --human-readable --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages --exclude=/.git&quot;
+<br />
+PORTAGE_TMPDIR=&quot;/var/tmp&quot;
+<br />
+SHELL=&quot;/bin/bash&quot;
+<br />
+USE=&quot;acl amd64 bash-completion berkdb bzip2 cet cli crypt dri fortran gdbm gmp hardened iconv libtirpc lzma mmx ncurses nls nptl openmp pam pcre pic pie readline seccomp slang smp split-usr sse sse2 sse3 sse4 sse4_1 ssl ssp ssse3 tcpd test-rust threads unicode xattr xtpax zlib&quot; ABI_X86=&quot;64&quot; ADA_TARGET=&quot;gnat_2021&quot; COLLECTD_PLUGINS=&quot;df interface irq load memory rrdtool swap syslog&quot; CPU_FLAGS_X86=&quot;avx mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3&quot; ELIBC=&quot;glibc&quot; INPUT_DEVICES=&quot;libinput&quot; KERNEL=&quot;linux&quot; LIBREOFFICE_EXTENSIONS=&quot;presenter-console presenter-minimizer&quot; LUA_SINGLE_TARGET=&quot;lua5-1&quot; LUA_TARGETS=&quot;lua5-1&quot; OFFICE_IMPLEMENTATION=&quot;libreoffice&quot; PHP_TARGETS=&quot;php5-6&quot; POSTGRES_TARGETS=&quot;postgres15&quot; PYTHON_SINGLE_TARGET=&quot;python3_11&quot; PYTHON_TARGETS=&quot;python3_11&quot; QEMU_SOFTMMU_TARGETS=&quot;i386 x86_64&quot; QEMU_USER_TARGETS=&quot;i386 x86_64&quot; RUBY_TARGETS=&quot;ruby31&quot; XTABLES_ADDONS=&quot;quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq proto steal rawnat logmark ipmark dhcpmac delude chaos account&quot;
+<br />
+Unset&#58;&nbsp; ADDR2LINE, AR, ARFLAGS, AS, ASFLAGS, CC, CCLD, CONFIG_SHELL, CPP, CPPFLAGS, CTARGET, CXX, CXXFILT, ELFEDIT, EXTRA_ECONF, F77FLAGS, FC, GCOV, GPROF, INSTALL_MASK, LD, LFLAGS, LIBTOOL, MAKE, MAKEFLAGS, NM, OBJCOPY, OBJDUMP, PORTAGE_BINHOST, PORTAGE_BUNZIP2_COMMAND, PORTAGE_RSYNC_EXTRA_OPTS, RANLIB, READELF, RUSTFLAGS, SIZE, STRINGS, STRIP, YACC, YFLAGS</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-style: italic"><span style="color: blue">[Moderator edit: added [c<span style="font-weight: bold"></span>ode] tags to preserve output layout. -Hu]</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809344"></a><b>grknight</b></span><br /><span class="postdetails">Retired Dev<br /><img src="/images/ranks/rank-retired.gif" alt="Retired Dev" title="Retired Dev" border="0" /><br /><br /><br />Joined: 20 Feb 2015<br />Posts: 1441<br /></span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809344.html?sid=d21799554f9effd4b98c074d433b0e3d#8809344"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 3:51 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809344&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>zarec99 wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">hello ,maybe good point about profile ,it looks like no profile selected (star symbol missing) ,but emerge info shows profile (amd64/17.1/no-multilib/hardened)
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge --info
+<br />
+Portage 3.0.56 &#40;python 3.11.6-final-0, !../usr/portage/profiles/default/linux/amd64/17.1/no-multilib/hardened, gcc-13, glibc-2.37-r7, 4.9.74-minipli-unofficial+grsec-zarec99 x86_64&#41;</td>	</tr></table><span class="postbody"></td>	</tr></table><span class="postbody">
+<br />
+It shows a broken profile link (noticed by the ! prefix).
+<br />
+
+<br />
+Remove the /etc/portage/make.profile link then use eselect to recreate it.  Removing it first will ensure that it will point to the correct location when this situation occurs.</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=336958&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row1"><span class="name"><a name="8809348"></a><b>freke</b></span><br /><span class="postdetails">l33t<br /><img src="/images/ranks/rank_rect_4.gif" alt="l33t" title="l33t" border="0" /><br /><br /><br />Joined: 23 Jan 2003<br />Posts: 917<br />Location: Somewhere in Denmark</span><br /></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809348.html?sid=d21799554f9effd4b98c074d433b0e3d#8809348"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 4:06 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809348&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody">After fixing the profile-link and succesfully updated, I'd recommend to do an emerge -vac (emerge -va --depclean), unless you really want to keep all those old pythons/autoconf/gcc <img src="images/smiles/icon_wink.gif" alt=";)" title="Wink" border="0" /></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row1" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row1" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=12891&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr>
+		<td width="150" align="left" valign="top" class="row2"><span class="name"><a name="8809349"></a><b>zarec99</b></span><br /><span class="postdetails">n00b<br /><img src="/images/ranks/rank_rect_0.gif" alt="n00b" title="n00b" border="0" /><br /><img src="images/avatars/gallery/Futurama/cartoon_futurama_bender.gif" alt="" border="0" /><br /><br />Joined: 05 Sep 2006<br />Posts: 21<br />Location: Zilina,Slovak Republic</span><br /></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%"><a href="viewtopic-p-8809349.html?sid=d21799554f9effd4b98c074d433b0e3d#8809349"><img src="templates/gentoo/images/icon_minipost.gif" width="12" height="9" alt="Post" title="Post" border="0" /></a><span class="postdetails">Posted: Thu Dec 07, 2023 4:08 pm<span class="gen">&nbsp;</span>&nbsp; &nbsp;Post subject: </span></td>
+				<td valign="top" nowrap="nowrap"> <a href="posting.php?mode=quote&amp;p=8809349&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_quote.gif" alt="Reply with quote" title="Reply with quote" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2"><hr /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span class="postbody"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>grknight wrote:</b></span></td>	</tr>	<tr>	  <td class="quote"></span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>zarec99 wrote:</b></span></td>	</tr>	<tr>	  <td class="quote">hello ,maybe good point about profile ,it looks like no profile selected (star symbol missing) ,but emerge info shows profile (amd64/17.1/no-multilib/hardened)
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge --info
+<br />
+Portage 3.0.56 &#40;python 3.11.6-final-0, !../usr/portage/profiles/default/linux/amd64/17.1/no-multilib/hardened, gcc-13, glibc-2.37-r7, 4.9.74-minipli-unofficial+grsec-zarec99 x86_64&#41;</td>	</tr></table><span class="postbody"></td>	</tr></table><span class="postbody">
+<br />
+It shows a broken profile link (noticed by the ! prefix).
+<br />
+
+<br />
+Remove the /etc/portage/make.profile link then use eselect to recreate it.  Removing it first will ensure that it will point to the correct location when this situation occurs.</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+thanks ,i setup again profile
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">eselect profile set 16</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">eselect profile list
+<br />
+Available profile symlink targets&#58;
+<br />
+&nbsp; &#91;1&#93;&nbsp; &nbsp;default/linux/amd64/17.1 &#40;stable&#41;
+<br />
+&nbsp; &#91;2&#93;&nbsp; &nbsp;default/linux/amd64/17.1/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;3&#93;&nbsp; &nbsp;default/linux/amd64/17.1/hardened &#40;stable&#41;
+<br />
+&nbsp; &#91;4&#93;&nbsp; &nbsp;default/linux/amd64/17.1/hardened/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;5&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop &#40;stable&#41;
+<br />
+&nbsp; &#91;6&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome &#40;stable&#41;
+<br />
+&nbsp; &#91;7&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;8&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/gnome/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;9&#93;&nbsp; &nbsp;default/linux/amd64/17.1/desktop/plasma &#40;stable&#41;
+<br />
+&nbsp; &#91;10&#93;&nbsp; default/linux/amd64/17.1/desktop/plasma/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;11&#93;&nbsp; default/linux/amd64/17.1/desktop/plasma/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;12&#93;&nbsp; default/linux/amd64/17.1/desktop/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;13&#93;&nbsp; default/linux/amd64/17.1/desktop/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;14&#93;&nbsp; default/linux/amd64/17.1/developer &#40;exp&#41;
+<br />
+&nbsp; &#91;15&#93;&nbsp; default/linux/amd64/17.1/no-multilib &#40;stable&#41;
+<br />
+&nbsp; &#91;16&#93;&nbsp; default/linux/amd64/17.1/no-multilib/hardened &#40;stable&#41; *
+<br />
+&nbsp; &#91;17&#93;&nbsp; default/linux/amd64/17.1/no-multilib/hardened/selinux &#40;stable&#41;
+<br />
+&nbsp; &#91;18&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd &#40;dev&#41;
+<br />
+&nbsp; &#91;19&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/merged-usr &#40;dev&#41;
+<br />
+&nbsp; &#91;20&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/selinux &#40;exp&#41;
+<br />
+&nbsp; &#91;21&#93;&nbsp; default/linux/amd64/17.1/no-multilib/systemd/selinux/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;22&#93;&nbsp; default/linux/amd64/17.1/systemd &#40;stable&#41;
+<br />
+&nbsp; &#91;23&#93;&nbsp; default/linux/amd64/17.1/systemd/merged-usr &#40;stable&#41;
+<br />
+&nbsp; &#91;24&#93;&nbsp; default/linux/amd64/17.1/systemd/selinux &#40;exp&#41;
+<br />
+&nbsp; &#91;25&#93;&nbsp; default/linux/amd64/17.1/systemd/selinux/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;26&#93;&nbsp; default/linux/amd64/17.1/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;27&#93;&nbsp; default/linux/amd64/17.1/systemd/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;28&#93;&nbsp; default/linux/amd64/17.1/systemd/clang/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;29&#93;&nbsp; default/linux/amd64/17.0/x32 &#40;dev&#41;
+<br />
+&nbsp; &#91;30&#93;&nbsp; default/linux/amd64/17.0/x32/systemd &#40;exp&#41;
+<br />
+&nbsp; &#91;31&#93;&nbsp; default/linux/amd64/17.0/x32/systemd/merged-usr &#40;exp&#41;
+<br />
+&nbsp; &#91;32&#93;&nbsp; default/linux/amd64/17.0/musl &#40;dev&#41;
+<br />
+&nbsp; &#91;33&#93;&nbsp; default/linux/amd64/17.0/musl/clang &#40;exp&#41;
+<br />
+&nbsp; &#91;34&#93;&nbsp; default/linux/amd64/17.0/musl/hardened &#40;exp&#41;
+<br />
+&nbsp; &#91;35&#93;&nbsp; default/linux/amd64/17.0/musl/hardened/selinux &#40;exp&#41;</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+Nice  <img src="images/smiles/icon_biggrin.gif" alt=":D" title="Very Happy" border="0" /> 
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge --info
+<br />
+Portage 3.0.56 &#40;python 3.11.6-final-0, default/linux/amd64/17.1/no-multilib/hardened, gcc-13, glibc-2.37-r7, 4.9.74-minipli-unofficial+grsec-zarec99 x86_64&#41;
+<br />
+=================================================================</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>Code:</b></span></td>	</tr>	<tr>	  <td class="code">emerge -pv dev-lang/python&#58;3.12
+<br />
+
+<br />
+&nbsp;* IMPORTANT&#58; 6 config files in '/etc/portage' need updating.
+<br />
+&nbsp;* See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+<br />
+&nbsp;* sections of the emerge man page to learn how to update config files.
+<br />
+
+<br />
+These are the packages that would be merged, in order&#58;
+<br />
+
+<br />
+Calculating dependencies... done!
+<br />
+Dependency resolution took 6.66 s &#40;backtrack&#58; 0/20&#41;.
+<br />
+
+<br />
+&#91;ebuild&nbsp; &nbsp;R&nbsp; &nbsp; &#93; dev-lang/python-exec-2.4.10&#58;2&#58;&#58;gentoo&nbsp; USE=&quot;&#40;native-symlinks&#41; -test&quot; PYTHON_TARGETS=&quot;&#40;pypy3&#41; &#40;python3_10&#41; &#40;python3_11&#41; &#40;python3_12*&#41;&quot; 0 KiB
+<br />
+&#91;ebuild&nbsp; NS&nbsp; &nbsp; &#93; dev-lang/python-3.12.0_p1&#58;3.12&#58;&#58;gentoo &#91;2.7.18_p16-r1&#58;2.7&#58;&#58;gentoo, 3.8.18&#58;3.8&#58;&#58;gentoo, 3.9.18&#58;3.9&#58;&#58;gentoo, 3.10.13&#58;3.10&#58;&#58;gentoo, 3.11.6&#58;3.11&#58;&#58;gentoo&#93; USE=&quot;ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -libedit -lto -pgo -test -tk -valgrind -verify-sig&quot; 20,099 KiB
+<br />
+
+<br />
+Total&#58; 2 packages &#40;1 in new slot, 1 reinstall&#41;, Size of downloads&#58; 20,099 KiB</td>	</tr></table><span class="postbody"></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="row2" width="150" align="left" valign="middle"><span class="nav"><a href="#top" class="nav">Back to top</a></span></td>
+		<td class="row2" width="100%" height="28" valign="bottom" nowrap="nowrap"><table cellspacing="0" cellpadding="0" border="0" height="18" width="100%">
+			<tr>
+				<td valign="middle" nowrap="nowrap"><a href="profile.php?mode=viewprofile&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_profile.gif" alt="View user's profile" title="View user's profile" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=145781&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/icon_pm.gif" alt="Send private message" title="Send private message" border="0" /></a>       </a></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td class="spaceRow" colspan="2" height="1"><img src="templates/gentoo/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	<tr align="center">
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic-t-1166261-start-0.html?sid=d21799554f9effd4b98c074d433b0e3d">
+				<td align="center"><span class="gensmall">Display posts from previous: <select name="postdays"><option value="0" selected="selected">All Posts</option><option value="1">1 Day</option><option value="7">7 Days</option><option value="14">2 Weeks</option><option value="30">1 Month</option><option value="90">3 Months</option><option value="180">6 Months</option><option value="364">1 Year</option></select>&nbsp;<select name="postorder"><option value="asc" selected="selected">Oldest First</option><option value="desc">Newest First</option></select>&nbsp;<input type="submit" value="Go" class="liteoption" name="submit" /></span></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr>
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1166261&amp;sid=d21799554f9effd4b98c074d433b0e3d"><img src="templates/gentoo/images/lang_english/reply.gif" border="0" alt="Reply to topic" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="index.php?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">Gentoo Forums Forum Index</a>
+	  <img src="/images/forumpointer.gif" width="18" height="9" border="0" alt=""> <a href="viewforum-f-8.html?sid=d21799554f9effd4b98c074d433b0e3d" class="nav">Portage & Programming</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">All times are GMT</span><br /><span class="nav"></span>
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Page <b>1</b> of <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap">
+<form method="get" name="jumpbox" action="viewforum.html?sid=d21799554f9effd4b98c074d433b0e3d" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Select a forum</option><option value="-1">&nbsp;</option><option value="-1">Assistance</option><option value="-1">----------------</option><option value="16">News & Announcements</option><option value="40">Frequently Asked Questions</option><option value="14">Installing Gentoo</option><option value="33">Multimedia</option><option value="13">Desktop Environments</option><option value="18">Networking & Security</option><option value="23">Kernel & Hardware</option><option value="8"selected="selected">Portage & Programming</option><option value="19">Gamers & Players</option><option value="1">Other Things Gentoo</option><option value="51">Unsupported Software</option><option value="-1">&nbsp;</option><option value="-1">Discussion & Documentation</option><option value="-1">----------------</option><option value="12">Documentation, Tips & Tricks</option><option value="7">Gentoo Chat</option><option value="5">Gentoo Forums Feedback</option><option value="38">Duplicate Threads</option><option value="-1">&nbsp;</option><option value="-1">International Gentoo Users</option><option value="-1">----------------</option><option value="50">ä¸­æ–‡ (Chinese)</option><option value="36">Dutch</option><option value="47">Finnish</option><option value="35">French</option><option value="28">Deutsches Forum (German)</option><option value="52">&nbsp;&nbsp;Diskussionsforum</option><option value="53">&nbsp;&nbsp;Deutsche Dokumentation</option><option value="44">Greek</option><option value="41">Forum italiano (Italian)</option><option value="54">&nbsp;&nbsp;Forum di discussione italiano</option><option value="57">&nbsp;&nbsp;Risorse italiane (documentazione e tools)</option><option value="45">Polskie forum (Polish)</option><option value="55">&nbsp;&nbsp;Instalacja i sprzÄ™t</option><option value="61">&nbsp;&nbsp;Polish OTW</option><option value="39">Portuguese</option><option value="59">&nbsp;&nbsp;DocumentaÃ§Ã£o, Ferramentas e Dicas</option><option value="43">Russian</option><option value="37">Scandinavian</option><option value="30">Spanish</option><option value="15">Other Languages</option><option value="-1">&nbsp;</option><option value="-1">Architectures & Platforms</option><option value="-1">----------------</option><option value="46">Gentoo on AMD64</option><option value="62">Gentoo on ARM</option><option value="24">Gentoo on PPC</option><option value="27">Gentoo on Sparc</option><option value="32">Gentoo on Alternative Architectures</option><option value="49">Gentoo for Mac OS X (Portage for Mac OS X)</option></select><input type="hidden" name="sid" value="d21799554f9effd4b98c074d433b0e3d" />&nbsp;<input type="submit" value="Go" class="liteoption" /></span></td>
+	</tr>
+</table></form>
+
+<span class="gensmall">You <b>cannot</b> post new topics in this forum<br />You <b>cannot</b> reply to topics in this forum<br />You <b>cannot</b> edit your posts in this forum<br />You <b>cannot</b> delete your posts in this forum<br />You <b>cannot</b> vote in polls in this forum<br /></span></td>
+  </tr>
+</table>
+
+</td></tr></table>
+<br>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr><td><div align="center"><span class="copyright"><br /><br /></span></div></td></tr>
+	<tr><td width="100%" bgcolor="#000000">
+		<p class="menu">&nbsp;<a class=menulink href="sitemap/index.html">Links</a>:
+		<a class=menulink href="index.php?sid=d21799554f9effd4b98c074d433b0e3d">forums.gentoo.org</a> |
+		<a class=menulink href="http://www.gentoo.org">www.gentoo.org</a> |
+		<a class=menulink href="https://bugs.gentoo.org">bugs.gentoo.org</a> |
+		<a class=menulink href="https://wiki.gentoo.org">wiki.gentoo.org</a> |
+		<a class=menulink href="mailto:forum-mods@gentoo.org">forum-mods@gentoo.org</a>
+		</p>
+	</td></tr><tr><td height="25" bgcolor="#000000">
+		<p align="center" class="copyright">
+			Copyright 2001-2024 Gentoo Foundation, Inc.
+			Designed by <a href="http://www.frozenliquid.net" target="_phpbb" class="copyright">Kyle Manna</a> &copy; 2003;
+			Style derived from original subSilver theme.&nbsp;|
+			Hosting by <a href="http://www.gossamer-threads.com/" target="_phpbb" class="copyright">Gossamer Threads Inc.</a> &copy;&nbsp;|
+			Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a> 2.0.23-gentoo-p11 &copy; 2001, 2002 phpBB Group<br />
+            <a href="https://wiki.gentoo.org/wiki/Foundation:Privacy_Policy">Privacy Policy</a> <br />
+		</p>
+	</td></tr>
+</table>
+
+</body>
+</html>
+
+P¤Ï|³l      eÂ—ÙeÂ—ÚFˆå+eÂ—Ú   €    O^partitionKey=%28https%2Cgentoo.org%29,:https://forums.gentoo.org/viewtopic-p-8809349.html?sid=07d17f1cc971906f0aa42f990a677abd strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+server: nginx
+date: Tue, 06 Feb 2024 20:34:34 GMT
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/5.6.40
+cache-control: private, pre-check=0, post-check=0, max-age=0
+expires: 0
+pragma: no-cache
+x-clacks-overhead: Terry Pratchett, Noirin Trouble Pluinceid, Dan Kaminsky, Kris Nova
+permissions-policy: interest-cohort=()
+referrer-policy: strict-origin-when-cross-origin
+X-Firefox-Spdy: h2
+ original-response-headers server: nginx
+date: Tue, 06 Feb 2024 20:34:34 GMT
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/5.6.40
+set-cookie: phpbb2mysql_sid_s=d21799554f9effd4b98c074d433b0e3d; path=/; domain=forums.gentoo.org; secure
+set-cookie: phpbb2mysql_data_s=a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D; expires=Wed, 05-Feb-2025 20:34:34 GMT; Max-Age=31536000; path=/; domain=forums.gentoo.org; secure
+cache-control: private, pre-check=0, post-check=0, max-age=0
+expires: 0
+pragma: no-cache
+x-clacks-overhead: Terry Pratchett, Noirin Trouble Pluinceid, Dan Kaminsky, Kris Nova
+permissions-policy: interest-cohort=()
+referrer-policy: strict-origin-when-cross-origin
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 3173 net-response-time-onstop 3576  *Ã

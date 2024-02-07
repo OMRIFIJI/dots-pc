@@ -1,0 +1,318 @@
+[WARNING:2024-02-04 15:54:44,399:linux]: Command 'vulkaninfo' not found on your system
+[WARNING:2024-02-04 15:54:44,400:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 15:54:44,859:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 15:54:44,875:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 15:54:44,875:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 15:54:44,875:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[WARNING:2024-02-04 15:54:44,925:system]: vulkaninfo not available, unable to list GPUs
+[WARNING:2024-02-04 15:54:44,925:system]: vulkaninfo not available, unable to list GPUs
+[INFO:2024-02-04 15:54:45,038:api]: Getting runner information for wine
+[ERROR:2024-02-04 15:54:46,048:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-04 15:54:47,056:system]: Non existent path: /home/omri/.local/share/lutris/runtime/eac_runtime
+[WARNING:2024-02-04 15:54:49,534:system]: Non existent path: /home/omri/.local/share/lutris/runtime/winetricks
+[WARNING:2024-02-04 15:54:55,795:system]: Non existent path: /home/omri/.local/share/lutris/runtime/innoextract-1.9-linux
+[WARNING:2024-02-04 15:54:56,716:system]: Non existent path: /home/omri/.local/share/lutris/runtime/p7zip
+[WARNING:2024-02-04 15:54:57,359:system]: Non existent path: /home/omri/.local/share/lutris/runtime/gamecontrollerdb
+[WARNING:2024-02-04 15:54:58,077:system]: Non existent path: /home/omri/.local/share/lutris/runtime/battleye_runtime
+[WARNING:2024-02-04 15:54:58,629:system]: Non existent path: /home/omri/.local/share/lutris/runtime/network-tools
+[WARNING:2024-02-04 15:55:00,977:system]: Non existent path: /home/omri/.local/share/lutris/runtime/Ubuntu-18.04-i686
+[WARNING:2024-02-04 15:55:03,679:system]: Non existent path: /home/omri/.local/share/lutris/runtime/Ubuntu-18.04-x86_64
+[WARNING:2024-02-04 15:55:04,403:system]: Non existent path: /home/omri/.local/share/lutris/runtime/dxvk-cache-tool
+[WARNING:2024-02-04 15:57:41,019:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 15:57:41,395:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 15:57:41,397:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 15:57:41,397:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 15:57:41,397:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 15:57:41,642:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-04 15:58:31,780:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 15:58:32,150:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 15:58:32,152:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 15:58:32,152:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 15:58:32,152:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 15:58:32,399:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-04 15:58:40,835:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 15:58:41,211:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 15:58:41,213:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 15:58:41,213:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 15:58:41,213:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 15:58:41,458:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[ERROR:2024-02-04 15:59:10,330:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/219540/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:13,979:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/654310/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:17,791:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/397080/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:21,736:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/700580/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:22,265:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/802240/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:22,602:service_media]: Failed to download http://cdn.akamai.steamstatic.com/steam/apps/367540/capsule_184x69.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:36,773:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/219540/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:38,351:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/654310/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:39,737:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/397080/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:40,992:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/700580/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:41,418:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/802240/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:41,487:service_media]: Failed to download https://cdn.cloudflare.steamstatic.com/steam/apps/367540/header.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:43,502:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/624910/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:43,653:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/285580/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:44,070:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/224420/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:44,200:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/349700/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:44,731:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/407530/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:44,741:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/207230/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:44,793:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/33910/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:45,138:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/219540/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:45,250:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/402570/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:45,813:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/209660/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:46,065:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/209170/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:46,320:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/29800/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:46,655:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/92/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:47,078:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/49810/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:47,203:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/223710/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:47,361:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/440760/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:47,769:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/99890/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:48,407:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/222900/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:48,580:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/278970/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:48,898:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/967250/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:49,229:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/258700/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:49,512:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/873190/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:49,915:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/223650/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:50,056:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/388090/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:50,274:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/654310/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:50,468:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/568810/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:50,801:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/17020/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:51,113:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/46400/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:52,230:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/526740/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:52,384:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/271290/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:55,402:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/506540/library_600x900.jpg: HTTP Error 404: Not Found
+[INFO:2024-02-04 15:59:55,457:game_common]: Creating new configuration with runner wine
+[ERROR:2024-02-04 15:59:56,083:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/397080/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:56,310:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/202090/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:56,832:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/226320/library_600x900.jpg: HTTP Error 404: Not Found
+[WARNING:2024-02-04 15:59:58,287:runner]: Accessing game config while runner wasn't given one.
+[WARNING:2024-02-04 15:59:58,288:runner]: Accessing game config while runner wasn't given one.
+[ERROR:2024-02-04 15:59:58,288:wine]: The game doesn't have an executable
+[WARNING:2024-02-04 15:59:58,290:runner]: Accessing game config while runner wasn't given one.
+[WARNING:2024-02-04 15:59:58,290:runner]: Accessing game config while runner wasn't given one.
+[ERROR:2024-02-04 15:59:58,290:wine]: The game doesn't have an executable
+[ERROR:2024-02-04 15:59:59,520:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/200110/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:59,752:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/310110/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 15:59:59,993:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/643270/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:00,481:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/458760/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:01,294:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/247120/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:01,839:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/386880/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:01,916:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/754350/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:02,137:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/38720/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:02,264:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/805940/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:02,473:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/700580/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:02,775:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/365720/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:02,919:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/619080/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:03,019:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/802240/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:03,430:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/675940/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:03,912:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/367540/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:03,976:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/339280/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:04,152:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/607200/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:04,752:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/291010/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:04,851:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/407300/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:05,642:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/286080/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:06,312:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/235600/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:07,107:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/365300/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:07,296:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/979010/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:07,493:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/108500/library_600x900.jpg: HTTP Error 404: Not Found
+[ERROR:2024-02-04 16:00:08,063:service_media]: Failed to download http://cdn.steamstatic.com/steam/apps/243470/library_600x900.jpg: HTTP Error 404: Not Found
+[INFO:2024-02-04 16:00:58,276:api]: Getting runner information for wine (version: wine-ge-8-26-x86_64)
+[INFO:2024-02-04 16:00:58,523:interpreter]: Runner <lutris.runners.wine.wine object at 0x7fb78f7548d0> needs to be installed
+[INFO:2024-02-04 16:00:58,524:api]: Getting runner information for wine (version: wine-ge-8-26-x86_64)
+[INFO:2024-02-04 16:01:53,371:files_box]: All files available
+[INFO:2024-02-04 16:01:53,371:installerwindow]: All files are available, continuing install
+[INFO:2024-02-04 16:01:53,372:installerwindow]: Launching installer commands
+[INFO:2024-02-04 16:01:53,480:wine]: Creating a win64 prefix in /home/omri/Games/elden_ring
+[INFO:2024-02-04 16:01:59,210:wine]: win64 Prefix created in /home/omri/Games/elden_ring
+[INFO:2024-02-04 16:22:45,057:interpreter]: Cancelling installation of Elden_Ring
+[ERROR:2024-02-04 16:22:46,424:errors]: Command exited with code 256
+[ERROR:2024-02-04 16:22:46,425:exception_backstops]: Error handling timeout function: Command exited with code 256
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/exception_backstops.py", line 79, in error_wrapper
+    return handler(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/installer/commands.py", line 443, in _monitor_task
+    raise ScriptingError(_("Command exited with code %s") % command.return_code)
+lutris.installer.errors.ScriptingError: Command exited with code 256
+[WARNING:2024-02-04 16:23:37,261:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 16:23:37,798:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 16:23:37,803:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 16:23:37,803:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 16:23:37,803:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 16:23:38,086:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[INFO:2024-02-04 16:24:04,337:api]: Getting runner information for wine (version: wine-ge-8-26-x86_64)
+[INFO:2024-02-04 16:24:20,481:files_box]: All files available
+[INFO:2024-02-04 16:24:20,481:installerwindow]: All files are available, continuing install
+[INFO:2024-02-04 16:24:20,482:installerwindow]: Launching installer commands
+[INFO:2024-02-04 16:24:20,592:wine]: Creating a win64 prefix in /home/omri/Games/elden-ring
+[INFO:2024-02-04 16:24:33,854:wine]: win64 Prefix created in /home/omri/Games/elden-ring
+[ERROR:2024-02-04 18:44:24,102:game_finder]: Couldn't find a Windows executable in /home/omri/Games/elden-ring
+[WARNING:2024-02-04 18:44:24,185:lutris]: No path found in LutrisConfig(level=game, game_config_id=elden-ring-setup-1707061464, runner=wine)
+[WARNING:2024-02-04 18:44:24,185:lutris]: No path for Elden Ring (wine)
+[ERROR:2024-02-04 18:44:33,228:wine]: The game doesn't have an executable
+[ERROR:2024-02-04 18:44:33,234:exception_backstops]: Elden Ring (wine) has encountered an error: This game has no executable set. The install process didn't finish properly.
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/exception_backstops.py", line 29, in wrapper
+    result = function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/game.py", line 601, in configure_game
+    gameplay_info = self.get_gameplay_info(launch_ui_delegate)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/game.py", line 581, in get_gameplay_info
+    gameplay_info = self.runner.play()
+                    ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/runners/wine.py", line 1164, in play
+    raise MissingGameExecutableError(filename=game_exe)
+lutris.exceptions.MissingGameExecutableError: This game has no executable set. The install process didn't finish properly.
+[INFO:2024-02-04 18:45:14,895:shortcut]: Removing Steam shortcut for Elden Ring (wine)
+[WARNING:2024-02-04 18:45:14,912:lutris]: Game Elden Ring (wine) (id=5) not in cache path
+[INFO:2024-02-04 18:46:01,094:game_common]: Creating new configuration with runner wine
+[WARNING:2024-02-04 18:46:13,997:runner]: Accessing game config while runner wasn't given one.
+[WARNING:2024-02-04 18:46:13,997:runner]: Accessing game config while runner wasn't given one.
+[ERROR:2024-02-04 18:46:13,997:wine]: The game doesn't have an executable
+[WARNING:2024-02-04 18:46:13,999:runner]: Accessing game config while runner wasn't given one.
+[WARNING:2024-02-04 18:46:13,999:runner]: Accessing game config while runner wasn't given one.
+[ERROR:2024-02-04 18:46:13,999:wine]: The game doesn't have an executable
+[ERROR:2024-02-04 18:46:39,022:game]: The game 'Elden Ring' has no ID, it is not stored in the PGA.
+[ERROR:2024-02-04 18:46:41,116:exception_backstops]: Elden Ring (wine) has encountered an error: Your ESYNC limits are not set correctly.
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/exception_backstops.py", line 29, in wrapper
+    result = function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/game.py", line 601, in configure_game
+    gameplay_info = self.get_gameplay_info(launch_ui_delegate)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/game.py", line 581, in get_gameplay_info
+    gameplay_info = self.runner.play()
+                    ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/lutris/runners/wine.py", line 1170, in play
+    raise EsyncLimitError(_("Your ESYNC limits are not set correctly."))
+lutris.exceptions.EsyncLimitError: Your ESYNC limits are not set correctly.
+[WARNING:2024-02-04 18:51:22,862:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 18:51:23,399:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 18:51:23,404:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 18:51:23,404:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 18:51:23,404:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 18:51:23,703:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-04 18:58:51,321:game]: Game still running (state: running)
+[INFO:2024-02-04 18:58:51,321:game]: Stopping Elden Ring (wine)
+[WARNING:2024-02-04 19:01:06,208:game]: Game still running (state: running)
+[INFO:2024-02-04 19:01:06,208:game]: Stopping Elden Ring (wine)
+[WARNING:2024-02-04 19:02:38,187:wine]: No valid prefix detected in DXVK_HUD=fps, creating one...
+[INFO:2024-02-04 19:02:38,187:wine]: Creating a win64 prefix in DXVK_HUD=fps
+[ERROR:2024-02-04 19:03:00,583:game]: No LUTRIS_GAME_UUID recorded. The game's PIDs cannot be computed.
+[WARNING:2024-02-04 19:03:00,584:game]: The game has run for a very short time, did it crash?
+[WARNING:2024-02-04 19:03:01,692:wine]: No valid prefix detected in DXVK_HUD=fps, creating one...
+[INFO:2024-02-04 19:03:01,692:wine]: Creating a win64 prefix in DXVK_HUD=fps
+[WARNING:2024-02-04 19:03:08,700:wine]: Wine prefix creation is taking longer than expected...
+[ERROR:2024-02-04 19:03:22,274:game]: No LUTRIS_GAME_UUID recorded. The game's PIDs cannot be computed.
+[WARNING:2024-02-04 19:03:22,274:game]: The game has run for a very short time, did it crash?
+[WARNING:2024-02-04 19:03:32,203:wine]: Wine prefix creation is taking longer than expected...
+[WARNING:2024-02-04 19:05:01,158:game]: Game still running (state: running)
+[INFO:2024-02-04 19:05:01,158:game]: Stopping Elden Ring (wine)
+[INFO:2024-02-04 19:05:25,441:xrandr]: Changing resolution to 3840x2160
+[WARNING:2024-02-04 19:05:37,045:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 19:05:37,416:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 19:05:37,417:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 19:05:37,417:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 19:05:37,418:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 19:05:37,673:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[INFO:2024-02-04 19:06:10,741:xrandr]: Changing resolution to 3840x2160
+[WARNING:2024-02-04 19:07:07,811:game]: Game still running (state: running)
+[INFO:2024-02-04 19:07:07,811:game]: Stopping Elden Ring (wine)
+[INFO:2024-02-04 19:07:07,861:xrandr]: Switching resolution of DP-1 to 3840x2160
+[INFO:2024-02-04 19:08:19,938:application]: Shutting down Lutris
+[WARNING:2024-02-04 19:08:27,827:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 19:08:28,195:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 19:08:28,197:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 19:08:28,197:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 19:08:28,197:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 19:08:28,431:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[INFO:2024-02-04 19:09:23,124:application]: Shutting down Lutris
+[WARNING:2024-02-04 19:19:39,759:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 19:19:40,135:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 19:19:40,136:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 19:19:40,136:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 19:19:40,137:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 19:19:40,377:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[INFO:2024-02-04 19:20:15,742:xrandr]: Changing resolution to 3840x2160
+[WARNING:2024-02-04 19:20:32,770:game]: Game still running (state: running)
+[INFO:2024-02-04 19:20:32,770:game]: Stopping Elden Ring (wine)
+[INFO:2024-02-04 19:20:32,819:xrandr]: Switching resolution of DP-1 to 3840x2160
+[INFO:2024-02-04 19:21:41,929:xrandr]: Changing resolution to 3840x2160
+[WARNING:2024-02-04 19:26:17,251:game]: Game still running (state: running)
+[INFO:2024-02-04 19:26:17,252:game]: Stopping Elden Ring (wine)
+[INFO:2024-02-04 19:26:17,323:xrandr]: Switching resolution of DP-1 to 3840x2160
+[WARNING:2024-02-04 22:00:43,097:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-04 22:00:43,658:application]: Starting Lutris 0.5.16
+[INFO:2024-02-04 22:00:43,662:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-04 22:00:43,663:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-04 22:00:43,663:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-04 22:00:43,942:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-04 22:05:14,937:game]: Game still running (state: running)
+[INFO:2024-02-04 22:05:14,937:game]: Stopping Elden Ring (wine)
+[INFO:2024-02-04 22:05:15,389:application]: Shutting down Lutris
+[WARNING:2024-02-06 01:16:27,625:linux]: Command 'fluidsynth' not found on your system
+[INFO:2024-02-06 01:16:28,118:application]: Starting Lutris 0.5.16
+[INFO:2024-02-06 01:16:28,120:startup]: Using NVIDIA drivers 535.154.05 for x86_64
+[INFO:2024-02-06 01:16:28,120:startup]: GPU: NVIDIA GeForce GTX 970
+[INFO:2024-02-06 01:16:28,121:display]: GPU: 10DE:13C2 1462:3160 (nvidia drivers)
+[ERROR:2024-02-06 01:16:28,371:style_manager]: Error reading color-scheme: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/lutris/style_manager.py", line 80, in _call_cb
+    values = obj.call_finish(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop (19)
+[WARNING:2024-02-06 01:16:48,086:game]: Game still running (state: running)
+[INFO:2024-02-06 01:16:48,086:game]: Stopping Elden Ring (wine)
+[WARNING:2024-02-06 01:17:10,562:game]: Game still running (state: running)
+[INFO:2024-02-06 01:17:10,563:game]: Stopping Elden Ring (wine)
+[WARNING:2024-02-06 01:17:10,563:game]: The game has run for a very short time, did it crash?

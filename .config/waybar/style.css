@@ -1,0 +1,55 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: JetBrains Mono, "Font Awesome 6 Free";
+    font-size: 28px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(13, 11, 10, 255);
+    color: white;
+}
+
+#custom-gentoo-user {
+    background: rgba(66, 132, 167, 255);
+    color: black;
+    border-bottom: 8px  solid rgba(13, 11, 10, 255);
+    border-top: 8px solid rgba(13, 11, 10, 255);
+    border-right: 30px solid rgba(13, 11, 10, 255);
+}
+
+#language {
+    background: rgba(66, 132, 167, 255);
+    color: black;
+    border-bottom: 8px solid rgba(13, 11, 10, 255);
+    border-top: 8px solid rgba(13, 11, 10, 255);
+    border-left: 30px solid rgba(13, 11, 10, 255);
+    border-right: 20px solid rgba(13, 11, 10, 255);
+}
+
+#workspaces button {
+    color: rgba(66, 132, 167, 255);
+    border-right: 40px solid rgba(13, 11, 10, 255);
+}
+
+#workspaces button.empty {
+    color: white;
+}
+
+#workspaces button.active{
+    color: black;
+    background: rgba(86, 159, 84, 255);
+    background-position: 18px 0px;
+    border-bottom: 8px solid rgba(13, 11, 10, 255);
+    border-top: 8px solid rgba(13, 11, 10, 255); 
+}
+
+button:hover {
+    transition-duration: .1s;
+    background: inherit;
+}
+
+#custom-dot{
+    color: gray;
+}

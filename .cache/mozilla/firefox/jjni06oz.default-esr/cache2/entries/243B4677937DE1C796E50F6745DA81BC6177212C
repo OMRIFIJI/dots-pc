@@ -1,0 +1,1031 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="generator" content="SPEC CPU2017 Tools v5749 (flags v5178)" />
+<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+<style type="text/css" id="internalScreen" media="screen">
+<!--
+  @import url(//www.spec.org/includes/css/cpu2017result.css);
+  @import url(//www.spec.org/includes/css/cpu2017screen.css);
+-->
+</style>
+<style type="text/css" id="internalPrint" media="print">
+<!--
+  @import url(//www.spec.org/includes/css/cpu2017result.css);
+  @import url(//www.spec.org/includes/css/cpu2017print.css);
+-->
+</style>
+<style type="text/css" id="user">
+
+   
+   body { background: white; }
+   
+
+</style>
+<title>GNU Compiler Collection Flags</title>
+</head><body>
+<h1>GNU Compiler Collection Flags</h1>
+
+
+<h2>Flag descriptions for GCC, the GNU Compiler Collection</h2>
+
+<p id="gnote"><b>Note:</b> The GNU Compiler Collection provides a wide array of compiler options, described in detail and readily
+   available at <a href="https://gcc.gnu.org/onlinedocs/gcc/Option-Index.html#Option-Index">
+      https://gcc.gnu.org/onlinedocs/gcc/Option-Index.html#Option-Index</a> and <a
+      href="https://gcc.gnu.org/onlinedocs/gfortran/">https://gcc.gnu.org/onlinedocs/gfortran/</a>.  This SPEC CPU flags file
+   contains excerpts from and brief summaries of portions of that documentation.</p>
+
+<p>SPEC's modifications are:<br />
+   Copyright (C) 2006-2017 Standard Performance Evaluation Corporation</p>
+
+<p>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License,
+   Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being "Funding Free
+   Software", the Front-Cover Texts being (a) (see below), and with the Back-Cover Texts being (b) (see below).  A copy of the
+   license is included in your SPEC CPU kit at <samp>$SPEC/Docs/licenses/FDL.v1.3</samp> and on the web at <a
+      href="http://www.spec.org/cpu2017/Docs/licenses/FDL.v1.3">http://www.spec.org/cpu2017/Docs/licenses/FDL.v1.3</a>.
+   A copy of "Funding Free Software" is on your SPEC CPU kit at <samp>$SPEC/Docs/licenses/FundingFreeSW</samp> and on the web at <a
+      href="http://www.spec.org/cpu2017/Docs/licenses/FundingFreeSW">http://www.spec.org/cpu2017/Docs/licenses/FundingFreeSW</a>.</p>
+
+<p>(a) The FSF's Front-Cover Text is:</p>
+
+     <p style="margin-left:3em;">A GNU Manual</p>
+
+<p>(b) The FSF's Back-Cover Text is:</p>
+
+<p style="margin-left:3em;">You have freedom to copy and modify this GNU Manual, like GNU software.  Copies published by the Free
+   Software Foundation raise funds for GNU development.</p>
+
+
+<div class="NoPrint">
+<h3>Sections</h3>
+<p>Selecting one of the following will take you directly to that section:</p>
+<ul>
+<li><a href="#Section_optimization">Optimization Flags</a></li>
+<li><a href="#Section_portability">Portability Flags</a></li>
+<li><a href="#Section_compiler">Compiler Flags</a></li>
+<li><a href="#Section_other">Other Flags</a></li>
+</ul>
+</div>
+
+<hr />
+
+<div class="flagClass" id="optimization">
+<h2><a name="Section_optimization" id="Section_optimization">Optimization Flags</a></h2>
+<div class="flagTOC">
+<ul class="flagTOC">
+ <li><a href="#user_F-ffast-math">-ffast-math</a></li>
+ <li><a href="#user_F-fgnu89-inline">-fgnu89-inline</a></li>
+ <li><a href="#user_F-fstack-arrays">-fstack-arrays, -fno-stack-arrays</a></li>
+ <li><a href="#user_F-fno-strict-aliasing">-fno-strict-aliasing</a></li>
+ <li><a href="#user_F-fno-tree-loop-vectorize">-fno-tree-loop-vectorize</a></li>
+ <li><a href="#user_F-fno-unsafe-math-optimizations">-fno-unsafe-math-optimizations</a></li>
+ <li><a href="#user_F-fopenmp">-fopenmp</a></li>
+ <li><a href="#user_F-fprefetch-loop-arrays">-fprefetch-loop-arrays</a></li>
+ <li><a href="#user_F-fprofile-generate">-fprofile-generate</a></li>
+ <li><a href="#user_F-fprofile-use">-fprofile-use</a></li>
+ <li><a href="#user_F-fsigned-zeros">-fsigned-zeros</a></li>
+ <li><a href="#user_ftree-parallelize-loops">-ftree-parallelize-loops</a></li>
+ <li><a href="#user_F-funroll-all-loops">-funroll-all-loops</a></li>
+ <li><a href="#user_F-funroll-loops">-funroll-loops</a></li>
+ <li><a href="#user_g-gcc">-g</a></li>
+ <li><a href="#user_L-libpath">-L/path</a></li>
+ <li><a href="#user_m32-gcc">-m32</a></li>
+ <li><a href="#user_m64-gcc">-m64</a></li>
+ <li><a href="#user_mabi">-mabi=ilp32, -mabi=lp64</a></li>
+ <li><a href="#user_march">-march=core2, 
+      -march=athlon,
+      -march=native...</a></li>
+ <li><a href="#user_F-mavx">-mavx</a></li>
+ <li><a href="#user_mcpu">-mcpu=core2, -mcpu=niagara4, ...</a></li>
+ <li><a href="#user_F-mfmaf">-mfmaf</a></li>
+ <li><a href="#user_F-mrecip">-mrecip, -mrecip=all, -mrecip=sqrt, ...</a></li>
+ <li><a href="#user_msseN">-msse2, -msse4.2...</a></li>
+ <li><a href="#user_mtune">-mtune=niagara4, -mtune=athlon...</a></li>
+ <li><a href="#user_F-mvis3">-mvis3</a></li>
+ <li><a href="#user_F-Ofast">-Ofast</a></li>
+ <li><a href="#user_Olevel-gcc">-O1, -O2, -O3</a></li>
+ <li><a href="#user_Osilent-gcc">-Osilent-gcc</a></li>
+ <li><a href="#user_static-libstdcxx">-static-libstdcxx</a></li>
+ <li><a href="#user_F-std:c99-gcc">-std=c99-gcc</a></li>
+ <li><a href="#user_std:cxx03-gcc">-std=c++03</a></li>
+ <li><a href="#user_std-f2003-gcc">-std=f2003</a></li>
+ <li><a href="#user_Wl-dead_strip">-Wl-dead_strip</a></li>
+ <li><a href="#user_Wl-rpath">-Wl,-rpath,/path/to/lib</a></li>
+ <li><a href="#user_Wl-stack">-Wl,-stack_size,0xnnn</a></li>
+ <li><a href="#user_zmuldefs">-z muldefs</a></li>
+ <li><a href="#user_Wlzpage">-Wl,-z common-page-size=&lt;n&gt;</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+
+<ul class="flagDescList">
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-ffast-math" id="user_F-ffast-math">-ffast-math</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-ffast-math(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Enables a range of optimizations that provide faster, though sometimes less precise, mathematical operations.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fgnu89-inline" id="user_F-fgnu89-inline">-fgnu89-inline</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fgnu89-inline(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p> Tells GCC to use the GNU semantics for "inline" functions, that is, the behavior prior to the C99 standard.
+      This switch may resolve duplicate symbol errors, as noted in the <a
+         href="http://www.spec.org/cpu2017/Docs/benchmarks/502.gcc_r.html#inline">502.gcc_r benchmark description</a>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fstack-arrays" id="user_F-fstack-arrays">-fstack-arrays, -fno-stack-arrays</a></li>
+<li class="flagDescRE"><span class="tt">-f(?:no-)?stack-arrays</span></li>
+<li class="descText">
+<p>Enabled: Put all local arrays, even those of unknown size onto stack memory.  <br />The <samp>-fno-</samp> form disables the behavior.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fno-strict-aliasing" id="user_F-fno-strict-aliasing">-fno-strict-aliasing</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fno-strict-aliasing(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>The language standards set aliasing requirements: programmers are expected to follow conventions so that the
+         compiler can keep track of memory.  If a program violates the requirements (for example, using pointer arithmetic),
+         programs may crash, or (worse) wrong answers may be silently produced.</p>
+      <p>Unfortunately, the aliasing requirements from the standards are not always well understood.</p>
+      <p>Sometimes, the aliasing requirements are understood and nevertheless intentionally violated by smart programmers who
+         know what they are doing, such as the programmer responsible for the inner workings of Perl storage allocation and
+         variable handling.</p>
+      <p>The <samp>-fno-strict-aliasing</samp> switch instructs the optimizer that it must not assume that the aliasing
+         requirements from the standard are met by the current program.  You will probably need it for 500.perlbench_r and
+         600.perlbench_s.  Note that this is an <i>optimization</i> switch, not a portability switch.  When running
+         SPECint2017_rate_base or SPECint2017_speed_base, you must use the same optimization switches for all the C modules
+         in base; see 
+         <a href="http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags">
+            http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags</a>  
+         and 
+         <a href="http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate">
+            http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate</a>.  
+      </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fno-tree-loop-vectorize" id="user_F-fno-tree-loop-vectorize">-fno-tree-loop-vectorize</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fno-tree-loop-vectorize(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>There are a group of GCC optimizations invoked via <samp>-ftree-vectorize</samp> and related flags, as
+         described at <a href="https://gcc.gnu.org/projects/tree-ssa/vectorization.html">
+            https://gcc.gnu.org/projects/tree-ssa/vectorization.html</a>.  During testing of SPEC CPU2017, for some versions of
+         GCC on some chips, some benchmarks did not get correct answers when the vectorizor was enabled.  These problems were
+         to isolate, and it is possible that later versions of the compiler might not encounter them. </p>
+      <p>You can turn off loop vectorization with <samp>-fno-tree-loop-vectorize</samp>. Note that this is an <i>optimization</i>
+         switch, not a portability switch.  If it is needed, then in base you must use it consistently.  See: <a
+            href="http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags">
+            http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags</a> and <a
+            href="http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate">
+            http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate</a>.  </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fno-unsafe-math-optimizations" id="user_F-fno-unsafe-math-optimizations">-fno-unsafe-math-optimizations</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fno-unsafe-math-optimizations(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>The switch <samp>-funsafe-math-optimizations</samp> allows the compiler to make certain(*) aggressive assumptions, such as
+         disregarding the programmer's intended order of operations. The run rules allow such re-ordering <a
+            href="http://www.spec.org/cpu2017/Docs/runrules.html#reordering">
+            http://www.spec.org/cpu2017/Docs/runrules.html#reordering</a>.  The rules also point out that you must get answers
+         that pass SPEC's validation requirements.  In some cases, that will mean that some optimizations must be turned off.
+      </p>
+      <p><samp>-fno-unsafe-math-optimizations</samp> turns off these(*) optimizations.  You may need to use this flag in order to get
+         certain benchmarks to validate.  Note that this is an <i>optimization</i> switch, not a portability switch.  If it is
+         needed, then in base you will need to use it consistently.  See: <a
+            href="http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags">
+            http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags</a> and <a
+            href="http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate">
+            http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate</a>.  </p>
+      <p style="margin-left:2em;">(*) Much more detail about which optimizations is <a href="#gnote">available</a>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fopenmp" id="user_F-fopenmp">-fopenmp</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fopenmp(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="flagDescParallel"><span class="tt">Yes</span></li>
+<li class="descText">
+<p>
+Enable handling of OpenMP directives and generate parallel code.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fprefetch-loop-arrays" id="user_F-fprefetch-loop-arrays">-fprefetch-loop-arrays</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fprefetch-loop-arrays(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Enables prefetching of arrays used in loops.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fprofile-generate" id="user_F-fprofile-generate">-fprofile-generate</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fprofile-generate(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p id="fprof">
+      Instruments code to collect information for profile-driven feedback.
+      Information is collected regarding both code paths and data values.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fprofile-use" id="user_F-fprofile-use">-fprofile-use</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fprofile-use(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Applies information from a profile run in order to improve optimization.
+      Several optimizations are improved when profile data is available, including branch probabilities, loop peeling, and loop
+      unrolling.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fsigned-zeros" id="user_F-fsigned-zeros">-fsigned-zeros</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fsigned-zeros(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Disable optimizations for floating-point arithmetic that ignore the signedness of zero.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_ftree-parallelize-loops" id="user_ftree-parallelize-loops">-ftree-parallelize-loops</a></li>
+<li class="flagDescRE"><span class="tt">-ftree-parallelize-loops=\d</span></li>
+<li class="flagDescParallel"><span class="tt">Yes</span></li>
+<li class="descText">
+<p>
+      Attempts to decompose loops in order to run them on multiple processors.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-funroll-all-loops" id="user_F-funroll-all-loops">-funroll-all-loops</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-funroll-all-loops(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Tells the optimizer to unroll all loops. 
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-funroll-loops" id="user_F-funroll-loops">-funroll-loops</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-funroll-loops(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Tells the optimizer to unroll loops whose number of iterations can be determined at compile time or upon entry to the loop.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_g-gcc" id="user_g-gcc">-g</a></li>
+<li class="flagDescCompiler">gcc,gfortran,gxx</li>
+<li class="flagDescRE"><span class="tt">-g(?:\d)?</span></li>
+<li class="descText">
+<p>
+Produce debugging information.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_L-libpath" id="user_L-libpath">-L/path</a></li>
+<li class="flagDescRE"><span class="tt">-L(\S+)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+Add the specified path to the list of paths that the linker will 
+   search for archive libraries and control scripts.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_m32-gcc" id="user_m32-gcc">-m32</a></li>
+<li class="flagDescCompiler">gcc,gfortran,gxx</li>
+<li class="flagDescRE"><span class="tt">-m32</span></li>
+<li class="descText">
+<p>
+      Compiles for a 32-bit (LP32) data model.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_m64-gcc" id="user_m64-gcc">-m64</a></li>
+<li class="flagDescCompiler">gcc,gfortran,gxx</li>
+<li class="flagDescRE"><span class="tt">-m64</span></li>
+<li class="descText">
+<p>
+      Compiles for a 64-bit (LP64) data model.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_mabi" id="user_mabi">-mabi=ilp32, -mabi=lp64</a></li>
+<li class="flagDescRE"><span class="tt">-mabi=(\S+)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Generate code for ilp32 (int, long, pointer 32-bit) or lp64 (int 32-bit, longs and pointers 64-bit).  With ilp32, int, long int and pointer are 32-bit; with 
+      lp64, int is 32-bit, but long int and pointer are 64-bit.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_march" id="user_march">-march=core2, 
+      -march=athlon,
+      -march=native...</a></li>
+<li class="flagDescRE"><span class="tt">-march=(\S+)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      On x86 systems, allows use of instructions that require the listed architecture.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-mavx" id="user_F-mavx">-mavx</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-mavx(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+    Generate code for processors that include the AVX extensions.
+    </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_mcpu" id="user_mcpu">-mcpu=core2, -mcpu=niagara4, ...</a></li>
+<li class="flagDescRE"><span class="tt">-mcpu=(\S+)</span></li>
+<li class="descText">
+<p>
+      On SPARC systems, <kbd>mcpu</kbd> sets the available instruction set.
+      <br />On x86 systems, <kbd>mcpu</kbd> is a deprecated synonym for <kbd>mtune</kbd>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-mfmaf" id="user_F-mfmaf">-mfmaf</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-mfmaf(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Generate code to take advantage of fused multiply-add
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-mrecip" id="user_F-mrecip">-mrecip, -mrecip=all, -mrecip=sqrt, ...</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-mrecip(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<pre>
+       -mrecip
+           This option enables use of "RCPSS" and "RSQRTSS" instructions (and
+           their vectorized variants "RCPPS" and "RSQRTPS") with an additional
+           Newton-Raphson step to increase precision instead of "DIVSS" and
+           "SQRTSS" (and their vectorized variants) for single-precision
+           floating-point arguments.  These instructions are generated only when
+           -funsafe-math-optimizations is enabled together with
+           -finite-math-only and -fno-trapping-math.
+
+       -mrecip=opt
+           This option controls which reciprocal estimate instructions may be
+           used.  opt is a comma-separated list of options, which may be
+           preceded by a ! to invert the option:
+
+           all
+               Enable all estimate instructions.
+
+           default
+               Enable the default instructions, equivalent to -mrecip.
+
+           none
+               Disable all estimate instructions, equivalent to -mno-recip.
+
+           div Enable the approximation for scalar division.
+
+           vec-div
+               Enable the approximation for vectorized division.
+
+           sqrt
+               Enable the approximation for scalar square root.
+
+           vec-sqrt
+               Enable the approximation for vectorized square root.
+
+           So, for example, -mrecip=all,!sqrt enables all of the reciprocal
+           approximations, except for square root.
+   </pre>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_msseN" id="user_msseN">-msse2, -msse4.2...</a></li>
+<li class="flagDescRE"><span class="tt">-msse[\d.]+</span></li>
+<li class="descText">
+<p>
+      Allows use of instructions that require the SIMD units of the indicated type.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_mtune" id="user_mtune">-mtune=niagara4, -mtune=athlon...</a></li>
+<li class="flagDescRE"><span class="tt">-mtune=(\S+)</span></li>
+<li class="descText">
+<p>
+      Tunes code based on the timing characteristics of the listed processor.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-mvis3" id="user_F-mvis3">-mvis3</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-mvis3(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Generate code to take advantage of version 3 of the SPARC Visual Instruction Set extensions
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-Ofast" id="user_F-Ofast">-Ofast</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-Ofast(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Enable all optimizations of -O3 plus optimizations that are not valid for standard-compliant programs, such as re-ordering 
+      operations without regard to parentheses.
+      <br /><a href="#gnote">Many more details are available</a>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Olevel-gcc" id="user_Olevel-gcc">-O1, -O2, -O3</a></li>
+<li class="flagDescCompiler">gcc,gfortran,gxx</li>
+<li class="flagDescRE"><span class="tt">-O\d\b</span></li>
+<li class="descText">
+<p>
+      Increases optimization levels: the higher the number, the more optimization is done.  Higher levels of optimization may
+      require additional compilation time, in the hopes of reducing execution time.  At -O, basic optimizations are performed, 
+      such as constant merging and elimination of dead code.  At -O2, additional optimizations are added, such as common
+      subexpression elimination and strict aliasing.  At -O3, even more optimizations are performed, such as function inlining and
+      vectorization.
+      <br /><a href="#gnote">Many more details are available</a>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Osilent-gcc" id="user_Osilent-gcc">-Osilent-gcc</a></li>
+<li class="flagDescCompiler">gcc,gfortran,gxx</li>
+<li class="flagDescRE"><span class="tt">-O\b</span></li>
+<li class="descText">
+<p>
+Same as -O1
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_static-libstdcxx" id="user_static-libstdcxx">-static-libstdcxx</a></li>
+<li class="flagDescRE"><span class="tt">-static-libstdc\+\+</span></li>
+<li class="descText">
+<p>
+   Link the C++ library statically.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-std:c99-gcc" id="user_F-std:c99-gcc">-std=c99-gcc</a></li>
+<li class="flagDescCompiler">gcc</li>
+<li class="flagDescRE"><span class="tt">-std=c99</span></li>
+<li class="descText">
+<p>
+      Sets the language dialect to include syntax from the C99 standard, such as <samp>bool</samp> and other features used in CPU2017
+      benchmarks.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_std:cxx03-gcc" id="user_std:cxx03-gcc">-std=c++03</a></li>
+<li class="flagDescCompiler">gxx</li>
+<li class="flagDescRE"><span class="tt">-std=c\+\+03</span></li>
+<li class="descText">
+<p>
+      Sets the language dialect to include syntax from the 1998 ISO C++ standard plus the 2003 technical corrigendum.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_std-f2003-gcc" id="user_std-f2003-gcc">-std=f2003</a></li>
+<li class="flagDescCompiler">gfortran</li>
+<li class="flagDescRE"><span class="tt">-std=f2003</span></li>
+<li class="descText">
+<p>
+      Sets the language dialect to include syntax from the Fortran 2003 standard.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Wl-dead_strip" id="user_Wl-dead_strip">-Wl-dead_strip</a></li>
+<li class="flagDescRE"><span class="tt">-Wl,-dead_strip</span></li>
+<li class="descText">
+<p>Remove unused functions from the generated executable.  Without this flag, on Mac OS X, you are likely to encounter duplicate
+      symbols when linking 502.gcc_r or 602.gcc_s.</p>
+   <p>Note that this is an <i>optimization</i>
+      switch, not a portability switch.  If it is needed, then in base you must use it consistently.  See: <a
+         href="http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags">
+         http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags</a> and <a
+         href="http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate">
+         http://www.spec.org/cpu2017/Docs/runrules.html#MustValidate</a>. 
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Wl-rpath" id="user_Wl-rpath">-Wl,-rpath,/path/to/lib</a></li>
+<li class="flagDescRE"><span class="tt">-Wl,-rpath,(\S+)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+Add the specified directory to the runtime library search path used 
+   when linking an ELF executable with shared objects.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Wl-stack" id="user_Wl-stack">-Wl,-stack_size,0xnnn</a></li>
+<li class="flagDescRE"><span class="tt">-Wl,-stack_size,(?:0x)?[a-fA-F0-9]+\b</span></li>
+<li class="descText">
+<p>
+      Add the linker flag that requests a large stack.  This flag is likely to be important only to one or 
+      two of the floating point speed benchmarks.  In accordance with the rules for Base, it is set for 
+      all of fpspeed in base.  See: <a
+         href="http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags">
+         http://www.spec.org/cpu2017/Docs/runrules.html#BaseFlags</a>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_zmuldefs" id="user_zmuldefs">-z muldefs</a></li>
+<li class="flagDescRE"><span class="tt">(-z muldefs|-Wl,-z,muldefs)</span></li>
+<li class="descText">
+<p>
+      Allows links to proceed even if there are multiple definitions of some symbols.
+      This switch may resolve duplicate symbol errors, as noted in the <a
+         href="http://www.spec.org/cpu2017/Docs/benchmarks/502.gcc_r.html#inline">502.gcc_r benchmark description</a>.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_Wlzpage" id="user_Wlzpage">-Wl,-z common-page-size=&lt;n&gt;</a></li>
+<li class="flagDescRE"><span class="tt">-Wl,-z common-page-size=(\S+)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Set the requested page size for the program to  one of the available sizes for your system - for example 2M, 4M, 1G. 
+   </p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+<hr />
+<div class="flagClass" id="portability">
+<h2><a name="Section_portability" id="Section_portability">Portability Flags</a></h2>
+<div class="flagTOC">
+<ul class="flagTOC">
+ <li><a href="#user_F-D_FILE_OFFSET_BITS:64">-D_FILE_OFFSET_BITS=64</a></li>
+ <li><a href="#user_F-fconvert:big-endian">-fconvert=big-endian</a></li>
+ <li><a href="#user_F-fno-underscoring">-fno-underscoring</a></li>
+ <li><a href="#user_F-funsigned-char">-funsigned-char</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+
+<ul class="flagDescList">
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-D_FILE_OFFSET_BITS:64" id="user_F-D_FILE_OFFSET_BITS:64">-D_FILE_OFFSET_BITS=64</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-D_FILE_OFFSET_BITS=64(?=\s|$)</span></li>
+<li class="descText">
+<p>
+Ensure that there are no surprises if the benchmarks are run in an environment where file system metadata uses 64 bits.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fconvert:big-endian" id="user_F-fconvert:big-endian">-fconvert=big-endian</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fconvert=big-endian(?=\s|$)</span></li>
+<li class="descText">
+<p>Use big-endian representation for unformatted files.  This is important when reading 521.wrf_r, 621.wrf_s, and 628.pop2_s
+      data files that were originally generated in big-endian format.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-fno-underscoring" id="user_F-fno-underscoring">-fno-underscoring</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-fno-underscoring(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+Do not transform names of entities specified in the Fortran source file by appending underscores to them.
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-funsigned-char" id="user_F-funsigned-char">-funsigned-char</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-funsigned-char(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>Let the type "char" be unsigned, like "unsigned char".</p>
+   <p>Note: this particular portability flag is included for 526.blender_r per the recommendation in its documentation - see
+      <a href="http://www.spec.org/cpu2017/Docs/benchmarks/526.blender_r.html">
+         http://www.spec.org/cpu2017/Docs/benchmarks/526.blender_r.html</a>. 
+   </p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+<hr />
+<div class="flagClass" id="compiler">
+<h2><a name="Section_compiler" id="Section_compiler">Compiler Flags</a></h2>
+<div class="flagTOC">
+<ul class="flagTOC">
+ <li><a href="#user_gcc">gcc</a></li>
+ <li><a href="#user_gfortran">gfortran</a></li>
+ <li><a href="#user_gxx">g++</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+
+<ul class="flagDescList">
+<!--
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_GCC_compiler_path_eater" id="user_GCC_compiler_path_eater">/path/to/{gcc|g++|gfortran}</a></li>
+<li class="flagDescRE"><span class="tt">\S+/(gcc|g\+\+|gfortran)(?=\s|$)</span></li>
+<li class="descText">
+<p>
+
+</p>
+</li>
+</ul>
+</div>
+</li>
+-->
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_gcc" id="user_gcc">gcc</a></li>
+<li class="flagDescRE"><span class="tt">\bgcc(?=\s|$)</span></li>
+<li class="descText">
+<p>Invokes the GNU C compiler.  </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_gfortran" id="user_gfortran">gfortran</a></li>
+<li class="flagDescRE"><span class="tt">\bgfortran(?=\s|$)</span></li>
+<li class="descText">
+<p>Invokes the GNU Fortran compiler.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_gxx" id="user_gxx">g++</a></li>
+<li class="flagDescRE"><span class="tt">\bg\+\+(?=\s|$)</span></li>
+<li class="descText">
+<p>Invokes the GNU C++ compiler.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+<hr />
+<div class="flagClass" id="other">
+<h2><a name="Section_other" id="Section_other">Other Flags</a></h2>
+<div class="flagTOC">
+<ul class="flagTOC">
+ <li><a href="#user_F-ffixed-form">-ffixed-form</a></li>
+ <li><a href="#user_F-Wall">-Wall</a></li>
+ <li><a href="#user_F-Wno-return-type">-Wno-return-type</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+
+<ul class="flagDescList">
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-ffixed-form" id="user_F-ffixed-form">-ffixed-form</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-ffixed-form(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Allows source code in traditional (fixed-column) Fortran layout.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-Wall" id="user_F-Wall">-Wall</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-Wall(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Enables warnings.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="flagDesc">
+<ul class="flagDesc">
+<li class="flagName"><a name="user_F-Wno-return-type" id="user_F-Wno-return-type">-Wno-return-type</a></li>
+<li class="flagDescRE"><span class="tt">(?:^|(?&lt;=\s))-Wno-return-type(?:\([^\)]+\))?(?:=\S*)?(?=\s|$)</span></li>
+<li class="descText">
+<p>
+      Do not warn about functions defined with a return type that defaults to "int" or which return something other than what they were declared to.
+   </p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+<hr />
+<h2><a name="submitCommand">Commands and Options Used to Submit Benchmark Runs</a></h2>
+
+   
+   <p>SPECrate runs might use one of these methods to bind processes to specific processors, depending on the config file.</p>
+   <ul>
+      <li><p>Linux systems: the <samp>numactl</samp> command is commonly used.     Here is a brief guide to understanding the specific
+            command which will be found in the config file: </p>
+         <ul>
+            <li>syntax: <samp>numactl [--interleave=nodes] [--preferred=node] [--physcpubind=cpus] [--cpunodebind=nodes]
+                  [--membind=nodes] [--localalloc] command args ...</samp></li>
+            <li><samp>numactl</samp> runs processes with a specific NUMA scheduling or memory placement policy.  The policy is set for a
+               command and inherited by all of its children. </li>
+            <li><samp>--localalloc</samp> instructs numactl to keep a process memory on the local node while <samp>-m</samp> specifies which node(s) to
+               place a process memory.  </li>
+            <li><samp>--physcpubind</samp> specifies which core(s) to bind the process. In this case, copy 0 is bound to processor 0
+               etc.</li>
+            <li> For full details on using numactl, please refer to your Linux documentation, <samp>man numactl</samp></li>
+         </ul>
+      </li>
+      <li><p>Solaris systems: The <samp>pbind</samp> command is commonly used, via  
+            <br /> <b><kbd>submit=echo 'pbind -b...' > dobmk; sh dobmk</kbd></b> <br />
+            The specific command may be found in the config file; here is a brief guide to understanding that command: </p>
+         <ul>
+            <li><kbd><b>submit=</b></kbd> causes the SPEC tools to use this line when submitting jobs.</li>
+            <li><kbd><b>echo ...&gt; dobmk</b></kbd> causes the generated commands to be written to a file, namely
+               <kbd>dobmk</kbd>.</li>
+            <li><p><kbd><b>pbind -b</b></kbd> causes this copy's processes to be bound to the CPU specified by the expression that
+                  follows it.  See the config file used in the run for the exact syntax, which tends to be cumbersome because of
+                  the need to carefully quote parts of the expression.  When all expressions are evaluated, the jobs are typically
+                  distributed evenly across the system, with each chip running the same number of jobs as all other chips, and each
+                  core running the same number of jobs as all other cores.  </p>
+               <p>The pbind expression may include various elements from the SPEC toolset and from standard Unix commands, such
+                  as:</p>
+               <ul>
+                  <li><kbd><b>$BIND</b></kbd>: a reference to a value from the bind line, a line of the form
+                     "<samp>bind&nbsp;=&nbsp;n&nbsp;n&nbsp;n&nbsp;n</samp>", where each "n" is a processor number.  See <a
+                        href="http://www.spec.org/cpu2017/Docs/config.html#bind">http://www.spec.org/cpu2017/Docs/config.html#bind</a>
+                     for details on this feature.</li>
+                  <li><kbd><b>$$</b></kbd>: the current process id</li>
+                  <li><kbd><b>$SPECCOPYNUM</b></kbd>: the SPEC tools-assigned number for this copy of the benchmark.</li>
+                  <li><kbd><b>psrinfo</b></kbd>: find out what processors are available</li>
+                  <li><kbd><b>grep on-line</b></kbd>: search the <kbd>psrinfo</kbd> output for information regarding on-line cpus</li>
+                  <li><kbd><b>expr</b></kbd>: Calculate simple arithmetic expressions.  For example, the effect of binding jobs to a
+                     (quote-resolved) expression such as: <br /><samp>expr ( $SPECCOPYNUM / 4 ) * 8 + ($SPECCOPYNUM % 4 ) )</samp>
+                     <br />would be to send the jobs to processors whose numbers are:
+                     <br /><samp>0,1,2,3, 8,9,10,11, 16,17,18,19 ...</samp></li>
+                  <li><kbd><b>awk...print \$1</b></kbd>: Pick out the line corresponding to this copy of the benchmark and use the CPU
+                     number mentioned at the start of this line.</li>
+            </ul></li>
+            <li><kbd><b>sh dobmk</b></kbd> actually runs the benchmark.</li>
+      </ul></li>
+   </ul>
+   
+
+<hr />
+<h2><a name="fdoSettings">Commands and Options Used for Feedback-Directed Optimization</a></h2>
+
+   
+   <p>No special commands are needed for feedback-directed optimization, other than the compiler <a
+         href="#user_F-fprofile-generate">profile</a>&nbsp;&nbsp;<a href="#user_F-fprofile-use">flags</a>.</p>
+   
+
+<hr />
+<h2><a name="softwareEnvironment">Shell, Environment, and Other Software Settings</a></h2>
+
+   
+   <p>One or more of the following may have been used in the run.  If so, it will be listed in the notes sections.  Here
+      is a brief guide to understanding them:</p>
+   <ul>
+
+      <li><p><b><kbd>LD_LIBRARY_PATH=&lt;directories&gt;</kbd></b>  (set via config file <samp>preENV</samp>)
+            <br />LD_LIBRARY_PATH controls the search order for libraries.  Often, it can be defaulted.  Sometimes, it is
+            explicitly set (as documented in the notes in the submission), in order to ensure that the correct versions of
+            libraries are picked up.  </p></li>
+      <li><p><b><kbd>OMP_STACKSIZE=N</kbd></b> (set via config file <samp>preENV</samp>)
+            <br />Set the stack size for subordinate threads.</p></li>
+      <li><p> <b><kbd>ulimit -s N</kbd></b><br />
+            <b><kbd>ulimit -s unlimited</kbd></b><br />
+            'ulimit' is a Unix commands, entered prior to the run.  It sets the stack size for the main process, either
+            to N kbytes or to no limit.</p> </li>
+   </ul>
+   
+
+<hr />
+</body>
+</html>
+y)>?]Ù      e¬ù¡e¬ù√FàÈCe¬ù√   [    O^partitionKey=%28http%2Cspec.org%29,:http://www.spec.org/cpu2017/flags/gcc.2018-02-16.html strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Tue, 06 Feb 2024 20:59:47 GMT
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 40191
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Tue, 06 Feb 2024 20:59:47 GMT
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 40191
+Keep-Alive: timeout=3, max=500
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ ctid 1 uncompressed-len 0 net-response-time-onstart 8472 net-response-time-onstop 8605   úˇ

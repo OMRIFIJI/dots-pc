@@ -1,0 +1,375 @@
+/* BASICS */
+
+.CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+  direction: ltr;
+}
+
+/* PADDING */
+
+.CodeMirror-lines {
+  padding: 4px 0; /* Vertical padding around content */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  padding: 0 4px; /* Horizontal padding of content */
+}
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  background-color: white; /* The little square between H and V scrollbars */
+}
+
+/* GUTTER */
+
+.CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+.CodeMirror-linenumbers {}
+.CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+
+.CodeMirror-guttermarker { color: black; }
+.CodeMirror-guttermarker-subtle { color: #999; }
+
+/* CURSOR */
+
+.CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+.cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+.cm-fat-cursor-mark {
+  background-color: rgba(20, 255, 20, 0.5);
+  -webkit-animation: blink 1.06s steps(1) infinite;
+  -moz-animation: blink 1.06s steps(1) infinite;
+  animation: blink 1.06s steps(1) infinite;
+}
+.cm-animate-fat-cursor {
+  width: auto;
+  border: 0;
+  -webkit-animation: blink 1.06s steps(1) infinite;
+  -moz-animation: blink 1.06s steps(1) infinite;
+  animation: blink 1.06s steps(1) infinite;
+  background-color: #7e7;
+}
+@-moz-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+
+/* Can style cursor different in overwrite (non-insert) mode */
+.CodeMirror-overwrite .CodeMirror-cursor {}
+
+.cm-tab { display: inline-block; text-decoration: inherit; }
+
+.CodeMirror-rulers {
+  position: absolute;
+  left: 0; right: 0; top: -50px; bottom: 0;
+  overflow: hidden;
+}
+.CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0; bottom: 0;
+  position: absolute;
+}
+
+/* DEFAULT THEME */
+
+.cm-s-default .cm-header {color: blue;}
+.cm-s-default .cm-quote {color: #090;}
+.cm-negative {color: #d44;}
+.cm-positive {color: #292;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-link {text-decoration: underline;}
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: #708;}
+.cm-s-default .cm-atom {color: #219;}
+.cm-s-default .cm-number {color: #164;}
+.cm-s-default .cm-def {color: #00f;}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {}
+.cm-s-default .cm-variable-2 {color: #05a;}
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: #085;}
+.cm-s-default .cm-comment {color: #a50;}
+.cm-s-default .cm-string {color: #a11;}
+.cm-s-default .cm-string-2 {color: #f50;}
+.cm-s-default .cm-meta {color: #555;}
+.cm-s-default .cm-qualifier {color: #555;}
+.cm-s-default .cm-builtin {color: #30a;}
+.cm-s-default .cm-bracket {color: #997;}
+.cm-s-default .cm-tag {color: #170;}
+.cm-s-default .cm-attribute {color: #00c;}
+.cm-s-default .cm-hr {color: #999;}
+.cm-s-default .cm-link {color: #00c;}
+
+.cm-s-default .cm-error {color: #f00;}
+.cm-invalidchar {color: #f00;}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: #0b0;}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #a22;}
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+.CodeMirror-activeline-background {background: #e8f2ff;}
+
+/* STOP */
+
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.CodeMirror-scroll {
+  overflow: scroll !important; /* Things will break if this is overridden */
+  /* 50px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in .CodeMirror */
+  margin-bottom: -50px; margin-right: -50px;
+  padding-bottom: 50px;
+  height: 100%;
+  outline: none; /* Prevent dragging from highlighting the element */
+  position: relative;
+}
+.CodeMirror-sizer {
+  position: relative;
+  border-right: 50px solid transparent;
+}
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0; top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0; left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0; bottom: 0;
+}
+.CodeMirror-gutter-filler {
+  left: 0; bottom: 0;
+}
+
+.CodeMirror-gutters {
+  position: absolute; left: 0; top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -50px;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-gutter-wrapper ::selection { background-color: transparent }
+.CodeMirror-gutter-wrapper ::-moz-selection { background-color: transparent }
+
+.CodeMirror-lines {
+  cursor: text;
+  min-height: 1px; /* prevents collapsing before first draw */
+}
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: contextual;
+  font-variant-ligatures: contextual;
+}
+.CodeMirror-wrap pre.CodeMirror-line,
+.CodeMirror-wrap pre.CodeMirror-line-like {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 0;
+}
+
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  padding: 0.1px; /* Force widget margins to stay inside of the container */
+}
+
+.CodeMirror-widget {}
+
+.CodeMirror-rtl pre { direction: rtl; }
+
+.CodeMirror-code {
+  outline: none;
+}
+
+/* Force content-box sizing for the elements where we expect it */
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+.CodeMirror-measure pre { position: static; }
+
+div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+
+.CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+
+.CodeMirror-selected { background: #d9d9d9; }
+.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+.CodeMirror-crosshair { cursor: crosshair; }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #d7d4f0; }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }
+
+.cm-searching {
+  background-color: #ffa;
+  background-color: rgba(255, 255, 0, .4);
+}
+
+/* Used to force a border model for a node */
+.cm-force-border { padding-right: .1px; }
+
+@media print {
+  /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+
+/* See issue #2901 */
+.cm-tab-wrap-hack:after { content: ''; }
+
+/* Help users use markselection to safely style text background */
+span.CodeMirror-selectedtext { background: none; }
+mþ–[Ó      eÂŒeÂŒF‹8¨xŽŠ>  $    O^partitionKey=%28https%2Cyandex.ru%29,:https://k8s.jupyterhub.praktikum-services.ru/user/user-0-1130000055955716/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEAOQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAbKMIIGxjCCBa6gAwIBAgIMW4P1FbESytyJGhQ2MA0GCSqGSIb3DQEBCwUAMFAxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1HbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODAeFw0yNDAxMDkwODU5MTlaFw0yNDA4MTAwODU5MTlaMHExCzAJBgNVBAYTAlJVMQ8wDQYDVQQIEwZNb3Njb3cxDzANBgNVBAcTBk1vc2NvdzETMBEGA1UEChMKWUFOREVYIExMQzErMCkGA1UEAwwiKi5qdXB5dGVyaHViLnByYWt0aWt1bS1zZXJ2aWNlcy5ydTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALglwxEq9QnTeoZabLiChLULiGLUZfqJ82f/KaPpOKMS7HZGMo0HnxdUcyqg+XpjJ+wxktxzeq8sfcsnm96F6F5NjLfLq2cchYHE5fwuGuarMyHS6qvf+XNiL5Ee7R+y7imdDznIc/kquuBTYxG1YITmP9Hdu/jNnBo2QGMnP2YAA1XPbkwJAZO9UJL0s9ZX3/LILIEW5Q9YKxp+j0w4yDrcdNOQL9eFCC9JgEap6we5djKOAdeHSAncXQ06ClQNvmADZFf+QGd8mVZ5UDYHy4K1Qqf0gjF39aH+iXUxUSyzXwTGvWkbjrFx65BFWjo5KJSFVj+RVs7vPcbcOupeMWsCAwEAAaOCA30wggN5MA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMIGOBggrBgEFBQcBAQSBgTB/MEQGCCsGAQUFBzAChjhodHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc3JzYW92c3NsY2EyMDE4LmNydDA3BggrBgEFBQcwAYYraHR0cDovL29jc3AuZ2xvYmFsc2lnbi5jb20vZ3Nyc2FvdnNzbGNhMjAxODBWBgNVHSAETzBNMEEGCSsGAQQBoDIBFDA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5nbG9iYWxzaWduLmNvbS9yZXBvc2l0b3J5LzAIBgZngQwBAgIwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9nc3JzYW92c3NsY2EyMDE4LmNybDBPBgNVHREESDBGgiIqLmp1cHl0ZXJodWIucHJha3Rpa3VtLXNlcnZpY2VzLnJ1giBqdXB5dGVyaHViLnByYWt0aWt1bS1zZXJ2aWNlcy5ydTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAU+O9/8s14Z6jeb48kjYjxhwMCs+swHQYDVR0OBBYEFAHut1bOJXCfnZS7K113eyjk/307MIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgA/F0tP1yJHWJQdZRyEvg0S7ZA3fx+FauvBvyiF7PhkbgAAAYztcp6PAAAEAwBHMEUCIDOHY28XtGvj9RjfggzemXNbBE6+CGiPxge8xMdLaIxBAiEA1UQH+SLO8Zt61tFSuIQo8i5vanLHBX8zB3v3zFNdBncAdQDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYztcp5oAAAEAwBGMEQCIHyANEvDgH1OjR9MDnAVVYEL0r96v5Utkk7eJt/XuBcCAiA7GmTlEpoQw5v8YRxZn4tgASv54oKu3bThRH+oCE3NEwB2AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABjO1ynoEAAAQDAEcwRQIgS+jpLkQLBZ9AFfTjL2XhFQVyeO4IOGIfc2MrlknR/dkCIQCscwJwkSDiaenjoSxqchiqEJJalqvD8xKFB3zvPPUk3DANBgkqhkiG9w0BAQsFAAOCAQEAThKQpYD7ZmXGZSyaaqS60eofQbrQTW2HTHOlbxoad4wkvdSL3cUmBz3kkQpW0XD+Dwuxew7SrW86RAm1eMbi6SjNn5ZMuIobA5T8KpIuD3xfVTED3Pe84LXQBRQMw1mbFUtbFHxPYsZmFgzbKUWOodwvJfaq1UtJ2qSPJfd+sXEM/XtxHinrGse29q9F2zsgFy9fYukP/nBhsVsvBiu1PV8NHU0+tZUfyAJxaAdzlvt7TrCcor6yWVkC6BWoQIrFD5ZfZwJm6x/T0eQujE4ohA3EhIr0DLayk2EEMTS+IBZpJTtg+R+oGE8qEiVMTQKfrEcErGjiEzJWQTNEMqDKmxMCAAQAAAAAAAEBAAAAAAAABngyNTUxOQAAAA5SU0EtUFNTLVNIQTI1NgADZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAAGyjCCBsYwggWuoAMCAQICDFuD9RWxEsrciRoUNjANBgkqhkiG9w0BAQsFADBQMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEmMCQGA1UEAxMdR2xvYmFsU2lnbiBSU0EgT1YgU1NMIENBIDIwMTgwHhcNMjQwMTA5MDg1OTE5WhcNMjQwODEwMDg1OTE5WjBxMQswCQYDVQQGEwJSVTEPMA0GA1UECBMGTW9zY293MQ8wDQYDVQQHEwZNb3Njb3cxEzARBgNVBAoTCllBTkRFWCBMTEMxKzApBgNVBAMMIiouanVweXRlcmh1Yi5wcmFrdGlrdW0tc2VydmljZXMucnUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4JcMRKvUJ03qGWmy4goS1C4hi1GX6ifNn/ymj6TijEux2RjKNB58XVHMqoPl6YyfsMZLcc3qvLH3LJ5veheheTYy3y6tnHIWBxOX8LhrmqzMh0uqr3/lzYi+RHu0fsu4pnQ85yHP5KrrgU2MRtWCE5j/R3bv4zZwaNkBjJz9mAANVz25MCQGTvVCS9LPWV9/yyCyBFuUPWCsafo9MOMg63HTTkC/XhQgvSYBGqesHuXYyjgHXh0gJ3F0NOgpUDb5gA2RX/kBnfJlWeVA2B8uCtUKn9IIxd/Wh/ol1MVEss18Exr1pG46xceuQRVo6OSiUhVY/kVbO7z3G3DrqXjFrAgMBAAGjggN9MIIDeTAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADCBjgYIKwYBBQUHAQEEgYEwfzBEBggrBgEFBQcwAoY4aHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9jYWNlcnQvZ3Nyc2FvdnNzbGNhMjAxOC5jcnQwNwYIKwYBBQUHMAGGK2h0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL2dzcnNhb3Zzc2xjYTIwMTgwVgYDVR0gBE8wTTBBBgkrBgEEAaAyARQwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQICMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vZ3Nyc2FvdnNzbGNhMjAxOC5jcmwwTwYDVR0RBEgwRoIiKi5qdXB5dGVyaHViLnByYWt0aWt1bS1zZXJ2aWNlcy5ydYIganVweXRlcmh1Yi5wcmFrdGlrdW0tc2VydmljZXMucnUwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFPjvf/LNeGeo3m+PJI2I8YcDArPrMB0GA1UdDgQWBBQB7rdWziVwn52Uuytdd3so5P99OzCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHYAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGM7XKejwAABAMARzBFAiAzh2NvF7Rr4/UY34IM3plzWwROvghoj8YHvMTHS2iMQQIhANVEB/kizvGbetbRUriEKPIub2pyxwV/Mwd798xTXQZ3AHUA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGM7XKeaAAABAMARjBEAiB8gDRLw4B9To0fTA5wFVWBC9K/er+VLZJO3ibf17gXAgIgOxpk5RKaEMOb/GEcWZ+LYAEr+eKCrt204UR/qAhNzRMAdgBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYztcp6BAAAEAwBHMEUCIEvo6S5ECwWfQBX04y9l4RUFcnjuCDhiH3NjK5ZJ0f3ZAiEArHMCcJEg4mnp46EsanIYqhCSWparw/MShQd87zz1JNwwDQYJKoZIhvcNAQELBQADggEBAE4SkKWA+2ZlxmUsmmqkutHqH0G60E1th0xzpW8aGneMJL3Ui93FJgc95JEKVtFw/g8LsXsO0q1vOkQJtXjG4ukozZ+WTLiKGwOU/CqSLg98X1UxA9z3vOC10AUUDMNZmxVLWxR8T2LGZhYM2ylFjqHcLyX2qtVLSdqkjyX3frFxDP17cR4p6xrHtvavRds7IBcvX2LpD/5wYbFbLwYrtT1fDR1NPrWVH8gCcWgHc5b7e06wnKK+sllZAugVqECKxQ+WX2cCZusf09HkLoxOKIQNxISK9Ay2spNhBDE0viAWaSU7YPkfqBhPKhIlTE0Cn6xHBKxo4hMyVkEzRDKgyptmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAARSMIIETjCCAzagAwIBAgINAe5fIh38YjvUMzqFVzANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjAeFw0xODExMjEwMDAwMDBaFw0yODExMjEwMDAwMDBaMFAxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1HbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKdaydUMGCEAI9WXD+uu3Vxoa2uPUGATeoHLl+6OimGUSyZ59gSnKvuk2la77qCk8HuKf1UfR5NhDW5xUTolJAgvjOH3idaSz6+zpz8w7bXfIa7+9UQX/dhj2S/TgVprX9NHsKzyqzskeU8fxy7quRU6fBhMabO1IFkJXinDY+YuRluqlJBJDrnw9UqhCS98NE3QvADFBlV5Bs6i0BDxSEPouVq1lVW9MdIbPYa+oewNEtssmSStR8JvA+Z6cLVwzM0nLKWMjsIYPJLJLnNvBhBWk0Cqo8VS++XFBdZpaFwGue5RieGKDkFNm5KQConpFmvv73W+eka440eKHRwup08CAwEAAaOCASkwggElMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBT473/yzXhnqN5vjySNiPGHAwKz6zAfBgNVHSMEGDAWgBSP8Et/qC5FJK5NUPpjmove4t0bvDA+BggrBgEFBQcBAQQyMDAwLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9yb290cjMwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9yb290LXIzLmNybDBHBgNVHSAEQDA+MDwGBFUdIAAwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAJmQyC1fQorUC2bbmANzEdSIhlIoU4r7rd/9c446ZwTbw1MUcBQJfMPg+NccmBqixD7b6QDjynCy8SIwIVbb0615XoFYC20UgDX1b10d65pHBf9ZjQCxQNqQmJYaumxtf4z1s4DfjGRzNpZ5eWl06r/4ngGPoJVpjemEuunl1Ig423g7mNA2eymw0lIYkN5SQwCuaifIFJ6GlazhgDEwfpolu4usBCOmmQDo8dIm7A9+O4orkjgTHY+GzYZSR+Y0fFukAj6KYXwidlNalFMzhriSqHKvoflShx8xpfywgVcvzfTO3PYkz6fiNJBonf6q8amaEsybwMbDqKWwIX7eSPZmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAANjMIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4GA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4MTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8RgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsTgHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmmKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zdQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+oLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZURUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMpjjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQXmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecsMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpHWD9fAAAAAQAAAAJoMgABAAAAAGB0bHNmbGFnczB4MDAwMDAwMDA6azhzLmp1cHl0ZXJodWIucHJha3Rpa3VtLXNlcnZpY2VzLnJ1OjQ0M15wYXJ0aXRpb25LZXk9JTI4aHR0cHMlMkN5YW5kZXgucnUlMjkBAA== request-method GET response-head HTTP/2 200 
+date: Tue, 06 Feb 2024 19:23:42 GMT
+content-type: text/css
+content-length: 8705
+x-content-type-options: nosniff
+content-security-policy: frame-ancestors * 'self' https://*.yandex.ru:*
+x-jupyterhub-version: 1.4.2
+accept-ranges: bytes
+last-modified: Mon, 17 May 2021 13:59:58 GMT
+expires: Fri, 03 Feb 2034 19:23:42 GMT
+cache-control: max-age=315360000
+strict-transport-security: max-age=15724800; includeSubDomains
+X-Firefox-Spdy: h2
+ original-response-headers date: Tue, 06 Feb 2024 19:23:42 GMT
+content-type: text/css
+content-length: 8705
+x-content-type-options: nosniff
+content-security-policy: frame-ancestors * 'self' https://*.yandex.ru:*
+x-jupyterhub-version: 1.4.2
+accept-ranges: bytes
+last-modified: Mon, 17 May 2021 13:59:58 GMT
+expires: Fri, 03 Feb 2034 19:23:42 GMT
+cache-control: max-age=315360000
+strict-transport-security: max-age=15724800; includeSubDomains
+X-Firefox-Spdy: h2
+ ctid 5 uncompressed-len 0 net-response-time-onstart 34 net-response-time-onstop 35   "
