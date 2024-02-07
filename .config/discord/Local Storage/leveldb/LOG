@@ -1,0 +1,26 @@
+2024/01/18-21:27:33.971 bb5 Reusing MANIFEST /home/omri/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/01/18-21:27:33.974 bb5 Recovering log #55
+2024/01/18-21:27:33.975 bb5 Reusing old log /home/omri/.config/discord/Local Storage/leveldb/000055.log 
+2024/01/18-21:28:34.753 bd1 Level-0 table #59: started
+2024/01/18-21:28:34.755 bd1 Level-0 table #59: 15342 bytes OK
+2024/01/18-21:28:34.757 bd1 Delete type=0 #55
+2024/01/18-21:28:34.757 bd1 Compacting 4@0 + 2@1 files
+2024/01/18-21:28:34.789 bd1 Generated table #60@0: 29 keys, 2774436 bytes
+2024/01/18-21:28:34.811 bd1 Generated table #61@0: 85 keys, 2735005 bytes
+2024/01/18-21:28:34.811 bd1 Compacted 4@0 + 2@1 files => 5509441 bytes
+2024/01/18-21:28:34.812 bd1 compacted to: files[ 0 3 0 0 0 0 0 ]
+2024/01/18-21:28:34.812 bd1 Delete type=2 #52
+2024/01/18-21:28:34.812 bd1 Delete type=2 #59
+2024/01/18-21:28:34.812 bd1 Delete type=2 #54
+2024/01/18-21:28:34.812 bd1 Delete type=2 #48
+2024/01/18-21:28:34.812 bd1 Delete type=2 #49
+2024/01/18-21:28:34.812 bd1 Delete type=2 #56
+2024/01/18-21:31:13.772 bd1 Level-0 table #63: started
+2024/01/18-21:31:13.791 bd1 Level-0 table #63: 2775131 bytes OK
+2024/01/18-21:31:13.792 bd1 Delete type=0 #58
+2024/01/18-23:13:34.727 bd1 Level-0 table #65: started
+2024/01/18-23:13:34.729 bd1 Level-0 table #65: 7720 bytes OK
+2024/01/18-23:13:34.730 bd1 Delete type=0 #62
+2024/01/19-00:58:34.727 bd1 Level-0 table #67: started
+2024/01/19-00:58:34.728 bd1 Level-0 table #67: 9080 bytes OK
+2024/01/19-00:58:34.730 bd1 Delete type=0 #64

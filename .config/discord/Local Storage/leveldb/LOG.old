@@ -1,0 +1,12 @@
+2024/01/16-22:11:32.338 2f7c Reusing MANIFEST /home/omri/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/01/16-22:11:32.338 2f7c Recovering log #46
+2024/01/16-22:11:32.340 2f7c Reusing old log /home/omri/.config/discord/Local Storage/leveldb/000046.log 
+2024/01/16-22:15:12.048 3316 Level-0 table #52: started
+2024/01/16-22:15:12.067 3316 Level-0 table #52: 2781091 bytes OK
+2024/01/16-22:15:12.069 3316 Delete type=0 #46
+2024/01/16-23:41:36.009 3316 Level-0 table #54: started
+2024/01/16-23:41:36.010 3316 Level-0 table #54: 11114 bytes OK
+2024/01/16-23:41:36.012 3316 Delete type=0 #51
+2024/01/17-01:17:33.321 3316 Level-0 table #56: started
+2024/01/17-01:17:33.322 3316 Level-0 table #56: 10082 bytes OK
+2024/01/17-01:17:33.323 3316 Delete type=0 #53
