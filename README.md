@@ -7,14 +7,17 @@ My dots for Gentoo PC setup. A good half is shamelessly stolen from [phuocn0302]
 This repo includes dots for:
 - [x] alacritty
 - [x] hyprland
+- [x] ~~anime wallpaper~~
 - [x] hyprpaper
 - [x] neovim
 - [x] rofi
 
 ## Screenshots
-nothing yet*
+*Nothing's here yet*
 
 ## Task list
 - [ ] Better color management
 - [ ] waybar
 
+## Wallpaper
+Check out [source](https://www.pixiv.net/en/artworks/59810770) on pixiv.
