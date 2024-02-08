@@ -1,8 +1,9 @@
-# PC-dots
+# My main dots
 
 ## Overview
 My dots for Gentoo PC setup. A good half is shamelessly stolen from [phuocn0302](https://github.com/phuocn0302/dotfiles). Kudos to open source!
 
+# What's inside?
 This repo includes dots for:
 - [x] alacritty
 - [x] hyprland
@@ -13,7 +14,7 @@ This repo includes dots for:
 ## Screenshots
 nothing yet*
 
-## Task list:
+## Task list
 - [ ] Better color management
 - [ ] waybar
 
