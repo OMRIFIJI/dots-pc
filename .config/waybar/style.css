@@ -1,0 +1,17 @@
+* {
+    border: none;
+    font-family: JetBrains Mono, FontAwesome6Free, SymbolsNerdFont;
+    font-size: 24px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #0D0B10;
+    color: white;
+}
+
+#custom-edge-space {
+    margin-right: 20;
+    margin-left: 13;
+    font-size: 0px;
+}

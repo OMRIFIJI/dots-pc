@@ -1,0 +1,17 @@
+// vim: set ft=json:
+{
+    "position": "top", 
+    "height": 55, 
+    "spacing": 0,
+    "modules-left": ["custom/edge-space", "hyprland/workspaces"],
+    "modules-right": ["cpu", "clock", "custom/edge-space"], 
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+
+    "custom/edge-space": {
+        "format": "_", // invisible due to css
+    }
+}
