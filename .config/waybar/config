@@ -1,7 +1,7 @@
 // vim: set ft=json:
 {
     "position": "top", 
-    "height": 65, 
+    "height": 55, 
     "spacing": 0,
     "modules-left": [
         "custom/edge-space",
