@@ -4,11 +4,15 @@
     "height": 65, 
     "spacing": 0,
     "modules-left": [
+        "custom/edge-space",
+        "hyprland/language", 
         "custom/edge-space", 
         "hyprland/workspaces"
     ],
     "modules-right": [
         "pulseaudio",
+        "custom/separator",
+        "custom/gpu",
         "custom/separator",
         "memory",
         "custom/separator",
@@ -36,6 +40,13 @@
         "tooltip": false
     },
 
+    "custom/gpu": {
+        "format": " {}%",
+        "tooltip": false,
+        "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader",
+        "interval": 20
+    },
+
     "cpu": {
         "format": " {usage}%",
         "tooltip": false
@@ -56,5 +67,32 @@
     "pulseaudio": {
         "format": "󰕾 {volume}%",
         "tooltip": false
-    }   
+    },
+
+    "hyprland/language": {
+        "format": "  󰗊 {} ",
+        "format-en": "EN",
+        "format-ru": "RU",
+        "keyboard-name": "gaming-keyboard"
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十",
+
+        },
+           "persistent-workspaces": {
+                 "*": 6,
+           }
+    }
 }
