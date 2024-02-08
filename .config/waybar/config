@@ -1,17 +1,60 @@
 // vim: set ft=json:
 {
     "position": "top", 
-    "height": 55, 
+    "height": 65, 
     "spacing": 0,
-    "modules-left": ["custom/edge-space", "hyprland/workspaces"],
-    "modules-right": ["cpu", "clock", "custom/edge-space"], 
-
-    "cpu": {
-        "format": "{usage}% ",
-        "tooltip": false
-    },
+    "modules-left": [
+        "custom/edge-space", 
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "custom/separator",
+        "memory",
+        "custom/separator",
+        "cpu", 
+        "custom/separator",
+        "clock",
+        "custom/separator",
+        "custom/gentoo-btw",
+        "custom/edge-space"
+    ], 
 
     "custom/edge-space": {
         "format": "_", // invisible due to css
-    }
+        "tooltip": false
+    },
+    
+    "custom/separator": {
+        "format": "•",
+        "tooltip": false
+    },
+
+    "custom/gentoo-btw": {
+        "format": "  {icon} Gentoo ",
+        "format-icons": [""],
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10,
+        "tootltip": false
+    },
+
+    "clock": {
+        "format": "󰥔 {:%H:%M %A %b, %d}",
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "tooltip": false
+    }   
 }
