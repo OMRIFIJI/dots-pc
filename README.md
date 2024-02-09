@@ -13,7 +13,8 @@ This repo includes dots for:
 - [x] rofi
 
 ## Screenshots
-*Nothing's here yet*
+![clean screen](Pictures/screen0.png)
+![several windows](Pictures/screen1.png)
 
 ## Task list
 - [ ] waybar
