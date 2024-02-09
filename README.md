@@ -9,6 +9,7 @@ This repo includes dots for:
 - [x] hyprland
 - [x] ~~anime wallpaper~~
 - [x] hyprpaper
+- [x] waybar
 - [x] neovim
 - [x] rofi
 
@@ -17,7 +18,6 @@ This repo includes dots for:
 ![several windows](Pictures/screen1.png)
 
 ## Task list
-- [ ] waybar
 - [ ] Better color management
 - [ ] Learn how to exit vim
 
