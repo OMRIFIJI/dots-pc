@@ -6,7 +6,7 @@
     "modules-left": [
         "custom/edge-space",
         "hyprland/language", 
-        "custom/edge-space", 
+        "custom/separator-space", 
         "hyprland/workspaces"
     ],
     "modules-right": [
@@ -28,6 +28,11 @@
         "format": "_", // invisible due to css
         "tooltip": false
     },
+
+    "custom/separator-space": {
+        "format": " ",
+        "tooltip": false
+    },
     
     "custom/separator": {
         "format": "•",
@@ -35,42 +40,42 @@
     },
 
     "custom/gentoo-btw": {
-        "format": "  {icon} Gentoo ",
+        "format": " <span rise='2500'>{icon}</span><span size='8pt'> </span><span style='italic'>Gentoo</span> ",
         "format-icons": [""],
         "tooltip": false
     },
 
     "custom/gpu": {
-        "format": " {}%",
+        "format": "<span fgcolor='#569F54' rise='-2800' size='22.5pt'></span><span size='21.5pt'> </span>{}°C",
         "tooltip": false,
         "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader",
         "interval": 20
     },
 
     "cpu": {
-        "format": " {usage}%",
+        "format": "<span fgcolor='#F0C674' rise='2500'></span><span size='20pt'> </span>{usage}%",
         "tooltip": false
     },
 
     "memory": {
         "interval": 30,
-        "format": " {}%",
+        "format": "<span fgcolor='#9DC891'></span><span size='21.5pt'> </span>{}%",
         "max-length": 10,
         "tootltip": false
     },
 
     "clock": {
-        "format": "󰥔 {:%H:%M %A %b, %d}",
+        "format": "<span fgcolor='#569F54' rise='2500'>󰥔</span> {:%H:%M %A %b, %d}",
         "tooltip": false
     },
 
     "pulseaudio": {
-        "format": "󰕾 {volume}%",
+        "format": "<span fgcolor='#4284A5' rise='2500'>󰕾</span><span size='19pt'> </span>{volume}%",
         "tooltip": false
     },
 
     "hyprland/language": {
-        "format": "  󰗊 {} ",
+        "format": " <span rise='2500'>󰗊</span> {} ",
         "format-en": "EN",
         "format-ru": "RU",
         "keyboard-name": "gaming-keyboard"
