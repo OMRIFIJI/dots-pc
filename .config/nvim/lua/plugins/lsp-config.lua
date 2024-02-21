@@ -28,6 +28,9 @@ return {
 
       -- java
       lspconfig.jdtls.setup({ capabilities = capabilities })
+
+      -- other
+      lspconfig.golangci_lint_ls.setup({ capabilities = capabilities })
       vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, {})
     end,
     diagnostics = {
