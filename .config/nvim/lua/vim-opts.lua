@@ -14,5 +14,5 @@ vim.cmd(":command Q q")
 vim.g.mapleader = " "
 
 vim.filetype.add({
-  pattern = { [".*/hypr/.*.conf"] = "hyprlang" },
+    pattern = { [".*/hypr/.*.conf"] = "hyprlang" },
 })

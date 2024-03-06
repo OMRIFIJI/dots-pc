@@ -1,4 +1,4 @@
 return {
-  "luckasRanarison/tree-sitter-hyprlang",
-  dependencies = { "nvim-treesitter/nvim-treesitter" },
+    "luckasRanarison/tree-sitter-hyprlang",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
 }

@@ -1,3 +1,6 @@
 {
-  "diagnostics.globals": ["vim", "luasnip"]
+    "diagnostics.globals": [
+        "vim",
+        "luasnip"
+    ]
 }
