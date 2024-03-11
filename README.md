@@ -12,6 +12,7 @@ This repo includes dots for:
 - [x] waybar
 - [x] neovim
 - [x] rofi
+- [x] zsh
 
 ## Screenshots
 ![clean screen](Pictures/screen0.png)
