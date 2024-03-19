@@ -20,6 +20,7 @@ plugins=(
     git
     zsh-vi-mode
     docker
+    # fast-syntax-highlighting
 )
 
 # Sources
