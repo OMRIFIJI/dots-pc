@@ -34,9 +34,10 @@ return {
             lspconfig.clangd.setup({ capabilities = capabilities })
             lspconfig.jsonls.setup({ capabilities = capabilities })
 
-            -- SQL **didn't setup**
+            -- SQL **TODO:setup properly**
             lspconfig.sqls.setup({ capabilities = capabilities })
-
+            -- TEX
+            lspconfig.texlab.setup({ capabilities = capabilities })
             -- python
             lspconfig.pylsp.setup {
                 settings = {

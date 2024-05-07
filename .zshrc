@@ -104,7 +104,6 @@ source $ZSH/oh-my-zsh.sh
 
 # PATH
 PATH=$PATH:~/.local/bin:~/go/bin
-
 # Etc
 __git_files () { 
     _wanted files expl 'local files' _files     

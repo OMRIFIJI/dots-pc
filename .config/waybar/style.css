@@ -3,6 +3,7 @@
     font-family: JetBrains Mono, FontAwesome6Free, SymbolsNerdFont, icomoon;
     font-size: 26px;
     min-height: 0;
+    border-radius: 0;
 }
 
 window#waybar {
@@ -22,6 +23,13 @@ window#waybar {
 }
 
 #custom-separator {
+    margin-right: 20;
+    margin-left: 20; 
+    color: #808899;
+    font-size: 24px;
+}
+
+#custom-vpn-separator {
     margin-right: 20;
     margin-left: 20; 
     color: #808899;
