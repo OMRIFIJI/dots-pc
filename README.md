@@ -10,7 +10,6 @@ This repo includes dots for:
 - [x] ~~anime wallpaper~~
 - [x] hyprpaper
 - [x] waybar
-- [x] neovim
 - [x] rofi
 - [x] zsh
 
