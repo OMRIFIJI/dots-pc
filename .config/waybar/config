@@ -43,7 +43,6 @@
         "exec-if": "test -d /proc/sys/net/ipv4/conf/wg0",
         "interval": 5
     },
-
     "custom/gentoo-btw": {
         "format": " <span rise='2500'>{icon}</span><span size='8pt'> </span><span style='italic'>Gentoo</span> ",
         "format-icons": [
