@@ -1,0 +1,29 @@
+import = ["/home/omri/.config/alacritty/colors/green-blue.toml"]
+
+[font]
+size = 18
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "BoldItalic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "MediumItalic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Medium"
+
+[window]
+dynamic_title = true
+opacity = 1
+title = "Alac"
+
+[window.padding]
+x = 50
+y = 40

@@ -1,0 +1,74 @@
+* {
+    border: none; 
+    font-family: JetBrains Mono, FontAwesome6Free, SymbolsNerdFont, icomoon;
+    font-size: 26px;
+    min-height: 0;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: #0D0B10;
+    color: white;
+}
+
+#custom-edge-space {
+    margin-right: 20;
+    margin-left: 13;
+    font-size: 0px;
+}
+
+#custom-separator-space {
+    margin-right: 20;
+    margin-left: 20; 
+}
+
+#custom-separator {
+    margin-right: 20;
+    margin-left: 20; 
+    color: #808899;
+    font-size: 24px;
+}
+
+#custom-vpn-separator {
+    margin-right: 20;
+    margin-left: 20; 
+    color: #808899;
+    font-size: 24px;
+}
+
+#custom-gentoo-btw {
+    background: #4284A5;
+    color: #0D0B10;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#language {
+    background: #4284A5;
+    color: #0D0B10;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#workspaces button {
+    color: #4284a5;    
+    box-shadow: none;
+    text-shadow: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 40px;
+}
+
+#workspaces button.empty {
+    color: white;
+}
+
+#workspaces button:hover {
+    background: #569F54;
+}
+
+#workspaces button.active {
+    color: #0D0B10;
+    background: #569F54;
+    border-radius: 0px;
+}

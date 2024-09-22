@@ -1,0 +1,108 @@
+{
+    "position": "top",
+    "height": 55,
+    "spacing": 0,
+    "modules-left": [
+        "custom/edge-space",
+        "hyprland/language",
+        "custom/separator-space",
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "custom/vpn",
+        "custom/vpn-separator",
+        "pulseaudio",
+        "custom/separator",
+        "custom/gpu",
+        "custom/separator",
+        "memory",
+        "custom/separator",
+        "cpu",
+        "custom/separator",
+        "clock",
+        "custom/separator",
+        "custom/gentoo-btw",
+        "custom/edge-space"
+    ],
+    "custom/edge-space": {
+        "format": "_",
+        "tooltip": false
+    },
+    "custom/separator-space": {
+        "format": " ",
+        "tooltip": false
+    },
+    "custom/separator": {
+        "format": "•",
+        "tooltip": false
+    },
+    "custom/vpn-separator": {
+        "format": "•",
+        "tooltip": false,
+        "exec": "echo '{\"class\": \"connected\"}'",
+        "exec-if": "test -d /proc/sys/net/ipv4/conf/wg0",
+        "interval": 5
+    },
+    "custom/gentoo-btw": {
+        "format": " <span rise='2500'>{icon}</span><span size='8pt'> </span><span style='italic'>Gentoo</span> ",
+        "format-icons": [
+            ""
+        ],
+        "tooltip": false
+    },
+    "custom/gpu": {
+        "format": "<span fgcolor='#569F54' rise='-2800' size='22.5pt'></span><span size='21.5pt'> </span>{}°C",
+        "tooltip": false,
+        "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader",
+        "interval": 20
+    },
+    "cpu": {
+        "format": "<span fgcolor='#F0C674' rise='2500'></span><span size='20pt'> </span>{usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 30,
+        "format": "<span fgcolor='#9DC891'></span><span size='21.5pt'> </span>{}%",
+        "max-length": 10,
+        "tootltip": false
+    },
+    "clock": {
+        "format": "<span fgcolor='#569F54' rise='2500'>󰥔</span> {:%H:%M %A %b, %d}",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "<span fgcolor='#4284A5' rise='2500'>󰕾</span><span size='19pt'> </span>{volume}%",
+        "tooltip": false
+    },
+    "hyprland/language": {
+        "format": " <span rise='2500'>󰗊</span> {} ",
+        "format-en": "EN",
+        "format-ru": "RU",
+        "keyboard-name": "gaming-keyboard"
+    },
+    "custom/vpn": {
+        "format": "<span fgcolor='#569F54' rise='2500'>󰕥</span> VPN",
+        "exec": "echo '{\"class\": \"connected\"}'",
+        "exec-if": "test -d /proc/sys/net/ipv4/conf/wg0",
+        "return-type": "json",
+        "interval": 5
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+        },
+        "persistent-workspaces": {
+            "*": 6
+        }
+    }
+}
