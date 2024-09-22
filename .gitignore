@@ -3,17 +3,29 @@
 
 !/.gitignore
 
+!/cache
+/cache/*
 !/.cache/wal/
+
+!/.config
+/.config/*
 !/.config/alacritty/
 !/.config/hypr/
 !/.config/rofi/
 !/.config/waybar/
+
 !/.config/zsh/
+/.config/zsh/*
+!/.config/zsh/.zprofile
+!/.config/zsh/.zshrc
 
 !/.oh-my-zsh
 
-!/Pictures/screen0.png
+!/Pictures
+/Pictures/*
+/Pictures/screen0.png
 !/Pictures/screen1.png
-!/.gitmodules
+
 !/.zshenv
+!/.gitmodules
 !/README.md
