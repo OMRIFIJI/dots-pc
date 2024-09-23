@@ -31,6 +31,8 @@ source $ZSH/oh-my-zsh.sh
 PATH=$PATH:~/.local/bin:~/go/bin
 
 # Aliases
+alias vi='nvim'
+alias vim='nvim'
 alias rover_start='sudo docker start rover'
 alias rover_bash='sudo docker exec -it rover bash'
 alias check_iptable='sudo ip6tables -N amnvpn.100.vpnTunOnly -t raw'
