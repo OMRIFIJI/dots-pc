@@ -23,7 +23,7 @@
 
 !/Pictures
 /Pictures/*
-/Pictures/screen0.png
+!/Pictures/screen0.png
 !/Pictures/screen1.png
 
 !/.zshenv
